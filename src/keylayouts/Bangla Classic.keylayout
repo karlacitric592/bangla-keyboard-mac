@@ -1,0 +1,2290 @@
+<?XML version="1.1" encoding="UTF-8"?>
+<!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<!--Last edited by Ukelele version 2.2.3 on 2012-11-15 at 17:12 (BDT)-->
+<keyboard group="126" id="-19001" name="Bangla Classic" maxout="3">
+    <layouts>
+        <layout first="0" last="17" modifiers="Modifiers" mapSet="ANSI"/>
+        <layout first="18" last="18" modifiers="Modifiers" mapSet="JIS"/>
+        <layout first="21" last="23" modifiers="Modifiers" mapSet="JIS"/>
+        <layout first="30" last="30" modifiers="Modifiers" mapSet="JIS"/>
+        <layout first="33" last="33" modifiers="Modifiers" mapSet="JIS"/>
+        <layout first="36" last="36" modifiers="Modifiers" mapSet="JIS"/>
+        <layout first="194" last="194" modifiers="Modifiers" mapSet="JIS"/>
+        <layout first="197" last="197" modifiers="Modifiers" mapSet="JIS"/>
+        <layout first="200" last="201" modifiers="Modifiers" mapSet="JIS"/>
+        <layout first="206" last="207" modifiers="Modifiers" mapSet="JIS"/>
+    </layouts>
+    <modifierMap id="Modifiers" defaultIndex="0">
+        <keyMapSelect mapIndex="0">
+            <modifier keys=""/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="1">
+            <modifier keys="anyShift caps?"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="2">
+            <modifier keys="command"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="3">
+            <modifier keys="caps"/>
+        </keyMapSelect>
+        <keyMapSelect mapIndex="4">
+            <modifier keys="anyShift caps? command"/>
+        </keyMapSelect>
+    </modifierMap>
+    <keyMapSet id="ANSI">
+        <keyMap index="0">
+            <key code="0" action="ree -fola"/>
+            <key code="1" action="rsu-kar"/>
+            <key code="2" action="rshee-kar"/>
+            <key code="3" action="aa-kar"/>
+            <key code="4" action="ba"/>
+            <key code="5" action="hasanta"/>
+            <key code="6" action="ra-fola"/>
+            <key code="7" action="ou"/>
+            <key code="8" action="a-kar"/>
+            <key code="9" action="ra"/>
+            <key code="11" action="n-na"/>
+            <key code="12" action="yuo"/>
+            <key code="13" action="ants_ja"/>
+            <key code="14" action="da"/>
+            <key code="15" action="pa"/>
+            <key code="16" action="cha"/>
+            <key code="17" action="tta"/>
+            <key code="18" action="l1"/>
+            <key code="19" action="l2"/>
+            <key code="20" action="l3"/>
+            <key code="21" action="l4"/>
+            <key code="22" action="l6"/>
+            <key code="23" action="l5"/>
+            <key code="24" action="l12"/>
+            <key code="25" action="l9"/>
+            <key code="26" action="l7"/>
+            <key code="27" action="l11"/>
+            <key code="28" action="l8"/>
+            <key code="29" action="l10"/>
+            <key code="30" action="3rd-bra2"/>
+            <key code="31" action="ga"/>
+            <key code="32" action="ja"/>
+            <key code="33" action="3rd-bra"/>
+            <key code="34" action="ha"/>
+            <key code="35" action="d-ra"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="doa"/>
+            <key code="38" action="ka"/>
+            <key code="39" action="a&#x0027;"/>
+            <key code="40" action="ta"/>
+            <key code="41" action="semi-kolon"/>
+            <key code="42" action="kndta"/>
+            <key code="43" action="k-ma"/>
+            <key code="44" action="//"/>
+            <key code="45" action="s-sha"/>
+            <key code="46" action="ma"/>
+            <key code="47" action="ful-stp"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="49" action="space"/>
+            <key code="50" action="l-1"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="65" output="."/>
+            <key code="66" output="&#x001D;"/>
+            <key code="67" output="*"/>
+            <key code="69" output="+"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="75" output="/"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="78" output="-"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="81" output="="/>
+            <key code="82" output="0"/>
+            <key code="83" output="1"/>
+            <key code="84" output="2"/>
+            <key code="85" output="3"/>
+            <key code="86" output="4"/>
+            <key code="87" output="5"/>
+            <key code="88" output="6"/>
+            <key code="89" output="7"/>
+            <key code="91" output="8"/>
+            <key code="92" output="9"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="1">
+            <key code="0" action="ref"/>
+            <key code="1" action="dru-kar"/>
+            <key code="2" action="dhree-kar"/>
+            <key code="3" action="aa"/>
+            <key code="4" action="bha"/>
+            <key code="5" action="dari"/>
+            <key code="6" action="ja-fola"/>
+            <key code="7" action="ou-kar"/>
+            <key code="8" action="oi-kar"/>
+            <key code="9" action="la"/>
+            <key code="11" action="m-na"/>
+            <key code="12" action="anusa"/>
+            <key code="13" action="ants-a"/>
+            <key code="14" action="dha"/>
+            <key code="15" action="pha"/>
+            <key code="16" action="ccha"/>
+            <key code="17" action="ttha"/>
+            <key code="18" action="u1"/>
+            <key code="19" action="u2"/>
+            <key code="20" action="u3"/>
+            <key code="21" action="u4"/>
+            <key code="22" action="u6"/>
+            <key code="23" action="u5"/>
+            <key code="24" action="u12"/>
+            <key code="25" action="u9"/>
+            <key code="26" action="u7"/>
+            <key code="27" action="u11"/>
+            <key code="28" action="u8"/>
+            <key code="29" action="u10"/>
+            <key code="30" action="2nd-bra2"/>
+            <key code="31" action="gha"/>
+            <key code="32" action="jha"/>
+            <key code="33" action="2nd-bra"/>
+            <key code="34" action="nio"/>
+            <key code="35" action="dha-ra"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="dhaa"/>
+            <key code="38" action="kha"/>
+            <key code="39" action="a&#x0022;"/>
+            <key code="40" action="thoa"/>
+            <key code="41" action="kolon"/>
+            <key code="42" action="bsrga"/>
+            <key code="43" action="sml-thn"/>
+            <key code="44" action="??"/>
+            <key code="45" action="m-sha"/>
+            <key code="46" action="t-sha"/>
+            <key code="47" action="grt-thn"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="50" action="u-1"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="66" output="&#x001D;"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="2">
+            <key code="0" action="a"/>
+            <key code="1" action="s"/>
+            <key code="2" action="d"/>
+            <key code="3" action="f"/>
+            <key code="4" action="h"/>
+            <key code="5" action="g"/>
+            <key code="6" action="z"/>
+            <key code="7" action="x"/>
+            <key code="8" action="c"/>
+            <key code="9" action="v"/>
+            <key code="11" action="b"/>
+            <key code="12" action="q"/>
+            <key code="13" action="w"/>
+            <key code="14" action="e"/>
+            <key code="15" action="r"/>
+            <key code="16" action="y"/>
+            <key code="17" action="t"/>
+            <key code="18" action="1"/>
+            <key code="19" action="2"/>
+            <key code="20" action="3"/>
+            <key code="21" action="4"/>
+            <key code="22" action="6"/>
+            <key code="23" action="5"/>
+            <key code="24" action="="/>
+            <key code="25" action="9"/>
+            <key code="26" action="7"/>
+            <key code="27" action="-"/>
+            <key code="28" action="8"/>
+            <key code="29" action="0"/>
+            <key code="30" action="]"/>
+            <key code="31" action="o"/>
+            <key code="32" action="u"/>
+            <key code="33" action="["/>
+            <key code="34" action="i"/>
+            <key code="35" action="p"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="l"/>
+            <key code="38" action="j"/>
+            <key code="39" action="&#x0027;"/>
+            <key code="40" action="k"/>
+            <key code="41" action=";"/>
+            <key code="42" action="\"/>
+            <key code="43" action=","/>
+            <key code="44" action="/"/>
+            <key code="45" action="n"/>
+            <key code="46" action="m"/>
+            <key code="47" action="."/>
+            <key code="48" output="&#x0009;"/>
+            <key code="50" action="`"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="66" output="&#x001D;"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="3">
+            <key code="0" output=""/>
+            <key code="36" output="&#x000D;"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="66" output="&#x001D;"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+        <keyMap index="4">
+            <key code="0" action="A"/>
+            <key code="1" action="S"/>
+            <key code="2" action="D"/>
+            <key code="3" action="F"/>
+            <key code="4" action="H"/>
+            <key code="5" action="G"/>
+            <key code="6" action="Z"/>
+            <key code="7" action="X"/>
+            <key code="8" action="C"/>
+            <key code="9" action="V"/>
+            <key code="11" action="B"/>
+            <key code="12" action="Q"/>
+            <key code="13" action="W"/>
+            <key code="14" action="E"/>
+            <key code="15" action="R"/>
+            <key code="16" action="Y"/>
+            <key code="17" action="T"/>
+            <key code="18" action="!"/>
+            <key code="19" action="@"/>
+            <key code="20" action="#"/>
+            <key code="21" action="$"/>
+            <key code="22" action="^"/>
+            <key code="23" action="%"/>
+            <key code="24" action="+"/>
+            <key code="25" action="("/>
+            <key code="26" action="&#x0026;"/>
+            <key code="27" action="_"/>
+            <key code="28" action="*"/>
+            <key code="29" action=")"/>
+            <key code="30" action="}"/>
+            <key code="31" action="O"/>
+            <key code="32" action="U"/>
+            <key code="33" action="{"/>
+            <key code="34" action="I"/>
+            <key code="35" action="P"/>
+            <key code="36" output="&#x000D;"/>
+            <key code="37" action="L"/>
+            <key code="38" action="J"/>
+            <key code="39" action="&#x0022;"/>
+            <key code="40" action="K"/>
+            <key code="41" action=":"/>
+            <key code="42" action="|"/>
+            <key code="43" action="&#x003C;"/>
+            <key code="44" action="?"/>
+            <key code="45" action="N"/>
+            <key code="46" action="M"/>
+            <key code="47" action="&#x003E;"/>
+            <key code="48" output="&#x0009;"/>
+            <key code="50" action="~"/>
+            <key code="51" output="&#x0008;"/>
+            <key code="53" output="&#x001B;"/>
+            <key code="64" output="&#x0010;"/>
+            <key code="66" output="&#x001D;"/>
+            <key code="70" output="&#x001C;"/>
+            <key code="71" output="&#x001B;"/>
+            <key code="72" output="&#x001F;"/>
+            <key code="76" output="&#x0003;"/>
+            <key code="77" output="&#x001E;"/>
+            <key code="79" output="&#x0010;"/>
+            <key code="80" output="&#x0010;"/>
+            <key code="96" output="&#x0010;"/>
+            <key code="97" output="&#x0010;"/>
+            <key code="98" output="&#x0010;"/>
+            <key code="99" output="&#x0010;"/>
+            <key code="100" output="&#x0010;"/>
+            <key code="101" output="&#x0010;"/>
+            <key code="103" output="&#x0010;"/>
+            <key code="105" output="&#x0010;"/>
+            <key code="106" output="&#x0010;"/>
+            <key code="107" output="&#x0010;"/>
+            <key code="109" output="&#x0010;"/>
+            <key code="111" output="&#x0010;"/>
+            <key code="113" output="&#x0010;"/>
+            <key code="114" output="&#x0005;"/>
+            <key code="115" output="&#x0001;"/>
+            <key code="116" output="&#x000B;"/>
+            <key code="117" output="&#x007F;"/>
+            <key code="118" output="&#x0010;"/>
+            <key code="119" output="&#x0004;"/>
+            <key code="120" output="&#x0010;"/>
+            <key code="121" output="&#x000C;"/>
+            <key code="122" output="&#x0010;"/>
+            <key code="123" output="&#x001C;"/>
+            <key code="124" output="&#x001D;"/>
+            <key code="125" output="&#x001F;"/>
+            <key code="126" output="&#x001E;"/>
+        </keyMap>
+    </keyMapSet>
+    <keyMapSet id="JIS">
+        <keyMap index="0" baseMapSet="ANSI" baseIndex="0">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="1" baseMapSet="ANSI" baseIndex="1">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="2" baseMapSet="ANSI" baseIndex="2">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="3" baseMapSet="ANSI" baseIndex="3">
+            <key code="512" output=""/>
+        </keyMap>
+        <keyMap index="4" baseMapSet="ANSI" baseIndex="4">
+            <key code="512" output=""/>
+        </keyMap>
+    </keyMapSet>
+    <actions>
+        <action id="!">
+            <when state="none" next="2!"/>
+        </action>
+        <action id="#">
+            <when state="none" next="2#"/>
+        </action>
+        <action id="$">
+            <when state="none" next="2$"/>
+        </action>
+        <action id="%">
+            <when state="none" next="2%"/>
+        </action>
+        <action id="&#x003C;">
+            <when state="none" next="&#x003C;&#x003C;"/>
+        </action>
+        <action id="&#x003E;">
+            <when state="none" next="&#x003E;&#x003E;"/>
+        </action>
+        <action id="&#x0022;">
+            <when state="none" next="2&#x0022;"/>
+        </action>
+        <action id="&#x0026;">
+            <when state="none" next="2&#x0026;"/>
+        </action>
+        <action id="&#x0027;">
+            <when state="none" next="1&#x0027;"/>
+        </action>
+        <action id="(">
+            <when state="none" next="2("/>
+        </action>
+        <action id=")">
+            <when state="none" next="2)"/>
+        </action>
+        <action id="*">
+            <when state="none" next="2*"/>
+        </action>
+        <action id="+">
+            <when state="none" next="2+"/>
+        </action>
+        <action id=",">
+            <when state="none" next="1,"/>
+        </action>
+        <action id="-">
+            <when state="none" next="1-"/>
+        </action>
+        <action id=".">
+            <when state="none" next="1."/>
+        </action>
+        <action id="/">
+            <when state="none" next="1/"/>
+        </action>
+        <action id="//">
+            <when state="none" next="//"/>
+        </action>
+        <action id="0">
+            <when state="none" next="100"/>
+        </action>
+        <action id="1">
+            <when state="none" next="11"/>
+        </action>
+        <action id="2">
+            <when state="none" next="22"/>
+        </action>
+        <action id="2nd-bra">
+            <when state="none" next="2nd-bra"/>
+        </action>
+        <action id="2nd-bra2">
+            <when state="none" next="2nd-bra2"/>
+        </action>
+        <action id="3">
+            <when state="none" next="33"/>
+        </action>
+        <action id="3rd-bra">
+            <when state="none" next="3rd-bra"/>
+        </action>
+        <action id="3rd-bra2">
+            <when state="none" next="3rd-bra2"/>
+        </action>
+        <action id="4">
+            <when state="none" next="44"/>
+        </action>
+        <action id="5">
+            <when state="none" next="55"/>
+        </action>
+        <action id="6">
+            <when state="none" next="66"/>
+        </action>
+        <action id="7">
+            <when state="none" next="77"/>
+        </action>
+        <action id="8">
+            <when state="none" next="88"/>
+        </action>
+        <action id="9">
+            <when state="none" next="99"/>
+        </action>
+        <action id=":">
+            <when state="none" next="2:"/>
+        </action>
+        <action id=";">
+            <when state="none" next="1;"/>
+        </action>
+        <action id="=">
+            <when state="none" next="1="/>
+        </action>
+        <action id="?">
+            <when state="none" next="1?"/>
+        </action>
+        <action id="??">
+            <when state="none" next="??"/>
+        </action>
+        <action id="@">
+            <when state="none" next="23@"/>
+        </action>
+        <action id="A">
+            <when state="none" next="AA"/>
+        </action>
+        <action id="B">
+            <when state="none" next="BB"/>
+        </action>
+        <action id="C">
+            <when state="none" next="CC"/>
+        </action>
+        <action id="D">
+            <when state="none" next="DD"/>
+        </action>
+        <action id="E">
+            <when state="none" next="EE"/>
+        </action>
+        <action id="F">
+            <when state="none" next="FF"/>
+        </action>
+        <action id="G">
+            <when state="none" next="GG"/>
+        </action>
+        <action id="H">
+            <when state="none" next="HH"/>
+        </action>
+        <action id="I">
+            <when state="none" next="II"/>
+        </action>
+        <action id="J">
+            <when state="none" next="JJ"/>
+        </action>
+        <action id="K">
+            <when state="none" next="KK"/>
+        </action>
+        <action id="L">
+            <when state="none" next="LL"/>
+        </action>
+        <action id="M">
+            <when state="none" next="MM"/>
+        </action>
+        <action id="N">
+            <when state="none" next="NN"/>
+        </action>
+        <action id="O">
+            <when state="none" next="OO"/>
+        </action>
+        <action id="P">
+            <when state="none" next="PP"/>
+        </action>
+        <action id="Q">
+            <when state="none" next="QQ"/>
+        </action>
+        <action id="R">
+            <when state="none" next="RR"/>
+        </action>
+        <action id="S">
+            <when state="none" next="SS"/>
+        </action>
+        <action id="T">
+            <when state="none" next="TT"/>
+        </action>
+        <action id="U">
+            <when state="none" next="UU"/>
+        </action>
+        <action id="V">
+            <when state="none" next="VV"/>
+        </action>
+        <action id="W">
+            <when state="none" next="WW"/>
+        </action>
+        <action id="X">
+            <when state="none" next="XX"/>
+        </action>
+        <action id="Y">
+            <when state="none" next="YY"/>
+        </action>
+        <action id="Z">
+            <when state="none" next="ZZ"/>
+        </action>
+        <action id="[">
+            <when state="none" next="1["/>
+        </action>
+        <action id="\">
+            <when state="none" next="1\"/>
+        </action>
+        <action id="]">
+            <when state="none" next="1]"/>
+        </action>
+        <action id="^">
+            <when state="none" next="2^"/>
+        </action>
+        <action id="_">
+            <when state="none" next="2_"/>
+        </action>
+        <action id="`">
+            <when state="none" next="1`"/>
+        </action>
+        <action id="a">
+            <when state="none" next="1a"/>
+        </action>
+        <action id="a&#x0022;">
+            <when state="none" next="a&#x0022;"/>
+        </action>
+        <action id="a&#x0027;">
+            <when state="none" next="a&#x0027;"/>
+        </action>
+        <action id="a-kar">
+            <when state="none" next="a-kar"/>
+            <when state="hasanta" next="hasanta_a-kar"/>
+            <when state="space" next="space_a-kar"/>
+        </action>
+        <action id="aa">
+            <when state="none" next="aa"/>
+        </action>
+        <action id="aa-kar">
+            <when state="none" next="aa-kar"/>
+            <when state="hasanta" next="hasanta_aa-kar"/>
+        </action>
+        <action id="ants-a">
+            <when state="none" next="ants-a"/>
+        </action>
+        <action id="ants_ja">
+            <when state="none" next="ants_ja"/>
+        </action>
+        <action id="anusa">
+            <when state="none" next="anusa"/>
+        </action>
+        <action id="b">
+            <when state="none" next="bb"/>
+        </action>
+        <action id="ba">
+            <when state="none" next="ba"/>
+            <when state="ba_juk" next="ba_juk_ba"/>
+            <when state="ccha_juk" next="ccha_juk_ba"/>
+            <when state="cha_juk" next="cha_juk_ba"/>
+            <when state="cha_juk_ccha_juk" next="cha_juk_ccha_juk_ba"/>
+            <when state="dhaa_juk" next="dhaa_juk_ba"/>
+            <when state="doa_juk" next="doa_juk_ba"/>
+            <when state="ga_juk" next="ga_juk_ba"/>
+            <when state="ha_juk" next="ha_juk_ba"/>
+            <when state="hasanta" next="hasanta_ba"/>
+            <when state="ja_juk" next="ja_juk_ba"/>
+            <when state="ja_juk_ja_juk" next="ja_juk_ja_juk_ba"/>
+            <when state="ka_juk" next="ka_juk_ba"/>
+            <when state="la_juk" next="la_juk_ba"/>
+            <when state="m-na_juk" next="m-na_juk_ba"/>
+            <when state="m-sha_juk" next="m-sha_juk_ba"/>
+            <when state="ma_juk" next="ma_juk_ba"/>
+            <when state="n-na_juk" next="n-na_juk_ba"/>
+            <when state="n-na_juk_doa_juk" next="n-na_juk_doa_juk_ba"/>
+            <when state="pa_juk" next="pa_juk_ba"/>
+            <when state="s-sha_juk" next="s-sha_juk_ba"/>
+            <when state="s-sha_juk_toa_juk" next="s-sha_juk_toa_juk_ba"/>
+            <when state="t-sha_juk" next="t-sha_juk_ba"/>
+            <when state="ta_juk" next="ta_juk_ba"/>
+            <when state="ta_juk_ta_juk" next="ta_juk_ta_juk_ba"/>
+            <when state="thoa_juk" next="thoa_juk_ba"/>
+            <when state="tta_juk" next="tta_juk_ba"/>
+        </action>
+        <action id="bha">
+            <when state="none" next="bha"/>
+            <when state="doa_juk" next="doa_juk_bha"/>
+            <when state="ma_juk" next="ma_juk_bha"/>
+        </action>
+        <action id="bsrga">
+            <when state="none" next="bsrga"/>
+        </action>
+        <action id="c">
+            <when state="none" next="c"/>
+        </action>
+        <action id="ccha">
+            <when state="none" next="ccha"/>
+            <when state="cha_juk" next="cha_juk_ccha"/>
+            <when state="nio_juk" next="nio_juk_ccha"/>
+            <when state="t-sha_juk" next="t-sha_juk_ccha"/>
+        </action>
+        <action id="cha">
+            <when state="none" next="cha"/>
+            <when state="cha_juk" next="cha_juk_cha"/>
+            <when state="nio_juk" next="nio_juk_cha"/>
+            <when state="t-sha_juk" next="t-sha_juk_cha"/>
+        </action>
+        <action id="d">
+            <when state="none" next="d"/>
+        </action>
+        <action id="d-ra">
+            <when state="none" next="d-ra"/>
+        </action>
+        <action id="da">
+            <when state="none" next="da"/>
+            <when state="da_juk" next="da_juk_da"/>
+            <when state="la_juk" next="la_juk_da"/>
+            <when state="m-na_juk" next="m-na_juk_da"/>
+            <when state="n-na_juk" next="n-na_juk_da"/>
+        </action>
+        <action id="dari">
+            <when state="none" next="dari"/>
+            <when state="hasanta" next="hasanta_dari"/>
+        </action>
+        <action id="dha">
+            <when state="none" next="dha"/>
+        </action>
+        <action id="dha-ra">
+            <when state="none" next="dha-ra"/>
+        </action>
+        <action id="dhaa">
+            <when state="none" next="dhaa"/>
+            <when state="ba_juk" next="ba_juk_dhaa"/>
+            <when state="doa_juk" next="doa_juk_dhaa"/>
+            <when state="ga_juk" next="ga_juk_dhaa"/>
+            <when state="n-na_juk" next="n-na_juk_dhaa"/>
+        </action>
+        <action id="dhree-kar">
+            <when state="none" next="dhree-kar"/>
+            <when state="ba_juk" next="ba_juk_dhree-kar"/>
+            <when state="ccha_juk" next="ccha_juk_dhree-kar"/>
+            <when state="cha_juk" next="cha_juk_dhree-kar"/>
+            <when state="da_juk" next="da_juk_dhree-kar"/>
+            <when state="dhaa_juk" next="dhaa_juk_dhree-kar"/>
+            <when state="doa_juk" next="doa_juk_dhree-kar"/>
+            <when state="ga_juk" next="ga_juk_dhree-kar"/>
+            <when state="ha_juk" next="ha_juk_dhree-kar"/>
+            <when state="hasanta" next="hasanta_dhree-kar"/>
+            <when state="ja_juk" next="ja_juk_dhree-kar"/>
+            <when state="ka_juk" next="ka_juk_dhree-kar"/>
+            <when state="la_juk" next="la_juk_dhree-kar"/>
+            <when state="m-na_juk" next="m-na_juk_dhree-kar"/>
+            <when state="m-sha_juk" next="m-sha_juk_dhree-kar"/>
+            <when state="ma_juk" next="ma_juk_dhree-kar"/>
+            <when state="n-na_juk" next="n-na_juk_dhree-kar"/>
+            <when state="nio_juk" next="nio_juk_dhree-kar"/>
+            <when state="pa_juk" next="pa_juk_dhree-kar"/>
+            <when state="pha_juk" next="pha_juk_dhree-kar"/>
+            <when state="s-sha_juk" next="s-sha_juk_dhree-kar"/>
+            <when state="t-sha_juk" next="t-sha_juk_dhree-kar"/>
+            <when state="ta_juk" next="ta_juk_dhree-kar"/>
+            <when state="thoa_juk" next="thoa_juk_dhree-kar"/>
+            <when state="tta_juk" next="tta_juk_dhree-kar"/>
+            <when state="yuo_juk" next="yuo_juk_dhree-kar"/>
+        </action>
+        <action id="doa">
+            <when state="none" next="doa"/>
+            <when state="ba_juk" next="ba_juk_da"/>
+            <when state="doa_juk" next="doa_juk_doa"/>
+            <when state="ga_juk" next="ga_juk_doa"/>
+            <when state="n-na_juk" next="n-na_juk_doa"/>
+        </action>
+        <action id="dru-kar">
+            <when state="none" next="dru-kar"/>
+            <when state="ba_juk" next="ba_juk_dru-kar"/>
+            <when state="ba_juk_dhaa" next="ba_juk_dhaa_dru-kar"/>
+            <when state="ba_ra-fola" next="ba_ra-fola_dru-kar"/>
+            <when state="bha_ra-fola" next="bha_ra-fola_dru-kar"/>
+            <when state="ccha" next="ccha_dru-kar"/>
+            <when state="ccha_juk" next="ccha_juk_dru-kar"/>
+            <when state="cha" next="cha_dru-kar"/>
+            <when state="cha_juk" next="cha_juk_dru-kar"/>
+            <when state="cha_juk_ccha" next="cha_juk_ccha_dru-kar"/>
+            <when state="cha_juk_cha" next="cha_juk_cha_dru-kar"/>
+            <when state="cha_juk_nio" next="cha_juk_nio_dru-kar"/>
+            <when state="da_juk" next="da_juk_dru-kar"/>
+            <when state="da_juk_da" next="da_juk_da_dru-kar"/>
+            <when state="dha" next="dha_dru-kar"/>
+            <when state="dhaa_juk" next="dhaa_juk_dru-kar"/>
+            <when state="dhaa_ra-fola" next="dhaa_ra-fola_dru-kar"/>
+            <when state="doa_juk" next="doa_juk_dru-kar"/>
+            <when state="doa_juk_bha" next="doa_juk_bha_dru-kar"/>
+            <when state="doa_juk_dhaa" next="doa_juk_dhaa_dru-kar"/>
+            <when state="doa_ra-fola" next="doa_ra-fola_dru-kar"/>
+            <when state="ga_juk" next="ga_juk_dru-kar"/>
+            <when state="ga_juk_dhaa" next="ga_juk_dhaa_dru-kar"/>
+            <when state="ga_ra-fola" next="ga_ra-fola_dru-kar"/>
+            <when state="gha-ra-fola" next="gha_ra-fola_dru-kar"/>
+            <when state="ha_juk" next="ha_juk_dru-kar"/>
+            <when state="ha_juk_ma" next="ha_juk_ma_dru-kar"/>
+            <when state="hasanta" next="hasanta_dru-kar"/>
+            <when state="ja_juk" next="ja_juk_dru-kar"/>
+            <when state="ja_juk_nio" next="ja_juk_nio_dru-kar"/>
+            <when state="ka_juk" next="ka_juk_dru-kar"/>
+            <when state="ka_juk_ka" next="ka_juk_ka_dru-kar"/>
+            <when state="ka_juk_la" next="ka_juk_la_dru-kar"/>
+            <when state="ka_juk_m-sha" next="ka_juk_m-sha_dru-kar"/>
+            <when state="ka_juk_m-sha_juk_n-na" next="ka_juk_m-sha_juk_n-na_dru-kar"/>
+            <when state="ka_juk_na" next="ka_juk_n-na_dru-kar"/>
+            <when state="ka_juk_toa" next="ka_juk_toa_dru-kar"/>
+            <when state="ka_juk_tta" next="ka_juk_tta_dru-kar"/>
+            <when state="ka_ra-fola" next="ka_ra-fola_dru-kar"/>
+            <when state="kha_ra-fola" next="kha_ra-fola_dru-kar"/>
+            <when state="la_juk" next="la_juk_dru-kar"/>
+            <when state="la_juk_ka" next="la_juk_ka_dru-kar"/>
+            <when state="m-na_juk" next="m-na_juk_dru-kar"/>
+            <when state="m-na_juk_tta" next="m-na_juk_tta_dru-kar"/>
+            <when state="m-na_juk_ttha" next="m-na_juk_ttha_dru-kar"/>
+            <when state="m-sha_juk" next="m-sha_juk_dru-kar"/>
+            <when state="m-sha_juk_ka" next="m-sha_juk_ka_dru-kar"/>
+            <when state="m-sha_juk_ka_ra-fola" next="m-sha_juk_ka_ra-fola_dru-kar"/>
+            <when state="m-sha_juk_pha" next="m-sha_juk_pha_dru-kar"/>
+            <when state="m-sha_juk_tta" next="m-sha_juk_tta_dru-kar"/>
+            <when state="m-sha_juk_ttha" next="m-sha_juk_ttha_dru-kar"/>
+            <when state="ma_juk" next="ma_juk_dru-kar"/>
+            <when state="ma_juk_pha" next="ma_juk_pha_dru-kar"/>
+            <when state="n-na_juk" next="n-na_juk_dru-kar"/>
+            <when state="n-na_juk_da" next="n-na_juk_da_dru-kar"/>
+            <when state="n-na_juk_dhaa" next="n-na_juk_dhaa_dru-kar"/>
+            <when state="n-na_juk_dhaa_ra-fola" next="n-na_juk_dhaa_ra-fola_dru-kar"/>
+            <when state="n-na_juk_toa" next="n-na_juk_toa_dru-kar"/>
+            <when state="n-na_juk_tta" next="n-na_juk_tta_dru-kar"/>
+            <when state="n-na_juk_ttha" next="n-na_juk_ttha_dru-kar"/>
+            <when state="nio_juk" next="nio_juk_dru-kar"/>
+            <when state="nio_juk_ccha" next="nio_juk_ccha_dru-kar"/>
+            <when state="nio_juk_cha" next="nio_juk_cha_dru-kar"/>
+            <when state="pa_juk" next="pa_juk_dru-kar"/>
+            <when state="pa_juk_toa" next="pa_juk_toa_dru-kar"/>
+            <when state="pa_juk_tta" next="pa_juk_tta_dru-kar"/>
+            <when state="pa_ra-fola" next="pa_ra-fola_dru-kar"/>
+            <when state="pha" next="pha_dru-kar"/>
+            <when state="pha_juk" next="pha_juk_dru-kar"/>
+            <when state="pha_juk_la" next="pha_juk_la_dru-kar"/>
+            <when state="pha_ra-fola" next="pha_ra-fola_dru-kar"/>
+            <when state="ra" next="ra_dru-kar"/>
+            <when state="s-sha_juk" next="s-sha_juk_dru-kar"/>
+            <when state="s-sha_juk_ka" next="s-sha_juk_ka_dru-kar"/>
+            <when state="s-sha_juk_ka_ra-fola" next="s-sha_juk_ka_ra-fola_dru-kar"/>
+            <when state="s-sha_juk_pha" next="s-sha_juk_pha_dru-kar"/>
+            <when state="s-sha_juk_toa" next="s-sha_juk_toa_dru-kar"/>
+            <when state="t-sha_juk" next="t-sha_juk_dru-kar"/>
+            <when state="t-sha_ra-fola" next="t-sha_ra-fola_dru-kar"/>
+            <when state="ta" next="ta_dru-kar"/>
+            <when state="ta_juk" next="ta_juk_dru-kar"/>
+            <when state="ta_juk_ta" next="ta_juk_ta_dru-kar"/>
+            <when state="ta_ra-fola" next="ta_ra-fola_dru-kar"/>
+            <when state="thoa_juk" next="thoa_juk_dru-kar"/>
+            <when state="tta" next="tta_dru-kar"/>
+            <when state="tta_juk" next="tta_juk_dru-kar"/>
+            <when state="tta_juk_tta" next="tta_juk_tta_dru-kar"/>
+            <when state="yuo_juk" next="yuo_juk_dru-kar"/>
+            <when state="yuo_juk_ka" next="yuo_juk_ka_dru-kar"/>
+            <when state="yuo_juk_ka_juk_m-sha" next="yuo_juk_ka_juk_m-sha_dru-kar"/>
+            <when state="yuo_juk_ka_ra-fola" next="yuo_juk_ka_ra-fola_dru-kar"/>
+        </action>
+        <action id="e">
+            <when state="none" next="ee"/>
+        </action>
+        <action id="f">
+            <when state="none" next="f"/>
+        </action>
+        <action id="ful-stp">
+            <when state="none" next="ful-stp"/>
+            <when state="ha_juk" next="ha_juk_fulstp"/>
+        </action>
+        <action id="g">
+            <when state="none" next="gg"/>
+        </action>
+        <action id="ga">
+            <when state="none" next="ga"/>
+            <when state="doa_juk" next="doa_juk_ga"/>
+            <when state="ga_juk" next="ga_juk_ga"/>
+            <when state="la_juk" next="la_juk_ga"/>
+            <when state="yuo_juk" next="yuo_juk_ga"/>
+        </action>
+        <action id="gha">
+            <when state="none" next="gha"/>
+            <when state="doa_juk" next="doa_juk_gha"/>
+            <when state="yuo_juk" next="yuo_juk_gha"/>
+        </action>
+        <action id="grt-thn">
+            <when state="none" next="grt-thn"/>
+            <when state="hasanta" next="hasanta_fd-arrow"/>
+            
+        </action>
+        <action id="h">
+            <when state="none" next="hh"/>
+        </action>
+        <action id="ha">
+            <when state="none" next="ha"/>
+        </action>
+        <action id="hasanta">
+            <when state="none" next="hasanta"/>
+            <when state="ba" next="ba_juk"/>
+            <when state="ccha" next="ccha_juk"/>
+            <when state="cha" next="cha_juk"/>
+            <when state="cha_juk_ccha" next="cha_juk_ccha_juk"/>
+            <when state="da" next="da_juk"/>
+            <when state="dhaa" next="dhaa_juk"/>
+            <when state="doa" next="doa_juk"/>
+            <when state="ga" next="ga_juk"/>
+            <when state="ha" next="ha_juk"/>
+            <when state="hasanta" next="hasanta_juk"/>
+            <when state="ja" next="ja_juk"/>
+            <when state="ja_juk_ja" next="ja_juk_ja_juk"/>
+            <when state="ka" next="ka_juk"/>
+            <when state="ka_juk_m-sha" next="ka_juk_m-sha_juk"/>
+            <when state="la" next="la_juk"/>
+            <when state="m-na" next="m-na_juk"/>
+            <when state="m-sha" next="m-sha_juk"/>
+            <when state="ma" next="ma_juk"/>
+            <when state="n-na" next="n-na_juk"/>
+            <when state="n-na_juk_doa" next="n-na_juk_doa_juk"/>
+            <when state="nio" next="nio_juk"/>
+            <when state="pa" next="pa_juk"/>
+            <when state="pha" next="pha_juk"/>
+            <when state="s-sha" next="s-sha_juk"/>
+            <when state="s-sha_juk_ka" next="s-sha_juk_ka_juk"/>
+            <when state="s-sha_juk_toa" next="s-sha_juk_toa_juk"/>
+            <when state="t-sha" next="t-sha_juk"/>
+            <when state="ta" next="ta_juk"/>
+            <when state="ta_juk_ta" next="ta_juk_ta_juk"/>
+            <when state="thoa" next="thoa_juk"/>
+            <when state="tta" next="tta_juk"/>
+            <when state="yuo" next="yuo_juk"/>
+            <when state="yuo_juk_ka" next="yuo_juk_ka_juk"/>
+        </action>
+        <action id="i">
+            <when state="none" next="ii"/>
+        </action>
+        <action id="j">
+            <when state="none" next="jj"/>
+        </action>
+        <action id="ja">
+            <when state="none" next="ja"/>
+            <when state="ba_juk" next="ba_juk_ja"/>
+            <when state="ja_juk" next="ja_juk_ja"/>
+            <when state="nio_juk" next="nio_juk_ja"/>
+        </action>
+        <action id="ja-fola">
+            <when state="none" next="ja-fola"/>
+        </action>
+        <action id="jha">
+            <when state="none" next="jha"/>
+            <when state="ja_juk" next="ja_juk_jha"/>
+            <when state="nio_juk" next="nio_juk_jha"/>
+        </action>
+        <action id="k">
+            <when state="none" next="kk"/>
+        </action>
+        <action id="k-ma">
+            <when state="none" next="k-ma"/>
+        </action>
+        <action id="ka">
+            <when state="none" next="ka"/>
+            <when state="ka_juk" next="ka_juk_ka"/>
+            <when state="la_juk" next="la_juk_ka"/>
+            <when state="m-sha_juk" next="m-sha_juk_ka"/>
+            <when state="s-sha_juk" next="s-sha_juk_ka"/>
+            <when state="yuo_juk" next="yuo_juk_ka"/>
+        </action>
+        <action id="kha">
+            <when state="none" next="kha"/>
+            <when state="s-sha_juk" next="s-sha_juk_kha"/>
+            <when state="yuo_juk" next="yuo_juk_kha"/>
+        </action>
+        <action id="kndta">
+            <when state="none" next="kndta"/>
+        </action>
+        <action id="kolon">
+            <when state="none" next="kolon"/>
+        </action>
+        <action id="l">
+            <when state="none" next="ll"/>
+        </action>
+        <action id="l-1">
+            <when state="none" next="l-1"/>
+        </action>
+        <action id="l1">
+            <when state="none" next="l1"/>
+        </action>
+        <action id="l2">
+            <when state="none" next="l2"/>
+        </action>
+        <action id="l3">
+            <when state="none" next="l3"/>
+        </action>
+        <action id="l4">
+            <when state="none" next="l4"/>
+        </action>
+        <action id="l5">
+            <when state="none" next="l5"/>
+        </action>
+        <action id="l6">
+            <when state="none" next="l6"/>
+        </action>
+        <action id="l7">
+            <when state="none" next="l7"/>
+        </action>
+        <action id="l8">
+            <when state="none" next="l8"/>
+        </action>
+        <action id="l9">
+            <when state="none" next="l9"/>
+        </action>
+        <action id="l10">
+            <when state="none" next="l10"/>
+        </action>
+        <action id="l11">
+            <when state="none" next="l11"/>
+        </action>
+        <action id="l12">
+            <when state="none" next="l12"/>
+        </action>
+        <action id="la">
+            <when state="none" next="la"/>
+            <when state="ba_juk" next="ba_juk_la"/>
+            <when state="ga_juk" next="ga_juk_la"/>
+            <when state="ha_juk" next="ha_juk_la"/>
+            <when state="hasanta" next="hasanta_la"/>
+            <when state="ka_juk" next="ka_juk_la"/>
+            <when state="la_juk" next="la_juk_la"/>
+            <when state="ma_juk" next="ma_juk_la"/>
+            <when state="pa_juk" next="pa_juk_la"/>
+            <when state="pha_juk" next="pha_juk_la"/>
+            <when state="s-sha_juk" next="s-sha_juk_la"/>
+            <when state="s-sha_juk_ka_juk" next="s-sha_juk_ka_juk_la"/>
+            <when state="t-sha_juk" next="t-sha_juk_la"/>
+            <when state="ta_juk" next="ta_juk_la"/>
+        </action>
+        <action id="m">
+            <when state="none" next="m"/>
+        </action>
+        <action id="m-na">
+            <when state="none" next="m-na"/>
+            <when state="ga_juk" next="ga_juk_m-na"/>
+            <when state="ha_juk" next="ha_juk_m-na"/>
+            <when state="m-na_juk" next="m-na_juk_m-na"/>
+            <when state="m-sha_juk" next="m-sha_juk_m-na"/>
+        </action>
+        <action id="m-sha">
+            <when state="none" next="m-sha"/>
+            <when state="ka_juk" next="ka_juk_m-sha"/>
+            <when state="yuo_juk_ka_juk" next="yuo_juk_ka_juk_m-sha"/>
+        </action>
+        <action id="ma">
+            <when state="none" next="ma"/>
+            <when state="dhaa_juk" next="dhaa_juk_ma"/>
+            <when state="doa_juk" next="doa_juk_ma"/>
+            <when state="ga_juk" next="ga_juk_ma"/>
+            <when state="ha_juk" next="ha_juk_ma"/>
+            <when state="hasanta" next="hasanta_ma"/>
+            <when state="ka_juk" next="ka_juk_ma"/>
+            <when state="ka_juk_m-sha_juk" next="ka_juk_m-sha_juk_ma"/>
+            <when state="la_juk" next="la_juk_ma"/>
+            <when state="m-sha_juk" next="m-sha_juk_ma"/>
+            <when state="ma_juk" next="ma_juk_ma"/>
+            <when state="n-na_juk" next="n-na_juk_ma"/>
+            <when state="s-sha_juk" next="s-sha_juk_ma"/>
+            <when state="t-sha_juk" next="t-sha_juk_ma"/>
+            <when state="ta_juk" next="ta_juk_ma"/>
+            <when state="tta_juk" next="tta_juk_ma"/>
+            <when state="yuo_juk" next="yuo_juk_ma"/>
+        </action>
+        <action id="n">
+            <when state="none" next="n"/>
+        </action>
+        <action id="n-na">
+            <when state="none" next="n-na"/>
+            <when state="ba_juk" next="ba_juk_n-na"/>
+            <when state="dhaa_juk" next="dhaa_juk_n-na"/>
+            <when state="doa_juk" next="doa_juk_n-na"/>
+            <when state="ga_juk" next="ga_juk_n-na"/>
+            <when state="ha_juk" next="ha_juk_n-na"/>
+            <when state="hasanta" next="hasanta_n-na"/>
+            <when state="ka_juk" next="ka_juk_na"/>
+            <when state="ka_juk_m-sha_juk" next="ka_juk_m-sha_juk_n-na"/>
+            <when state="m-na_juk" next="m-na_juk_n-na"/>
+            <when state="ma_juk" next="ma_juk_n-na"/>
+            <when state="n-na_juk" next="n-na_juk_n-na"/>
+            <when state="pa_juk" next="pa_juk_n-na"/>
+            <when state="pha_juk" next="pha_juk_n-na"/>
+            <when state="s-sha_juk" next="s-sha_juk_n-na"/>
+            <when state="t-sha_juk" next="t-sha_juk_n-na"/>
+            <when state="ta_juk" next="ta_juk_n-na"/>
+            <when state="thoa_juk" next="thoa_juk_n-na"/>
+        </action>
+        <action id="nio">
+            <when state="none" next="nio"/>
+            <when state="cha_juk" next="cha_juk_nio"/>
+            <when state="ja_juk" next="ja_juk_nio"/>
+        </action>
+        <action id="o">
+            <when state="none" next="oo"/>
+        </action>
+        <action id="oi-kar">
+            <when state="none" next="oi-kar"/>
+            <when state="hasanta" next="hasanta_oi-kar"/>
+            <when state="space" next="space_oi-kar"/>
+        </action>
+        <action id="ou">
+            <when state="none" next="ou"/>
+        </action>
+        <action id="ou-kar">
+            <when state="none" next="ou-kar"/>
+            <when state="hasanta" next="hasanta_ou-kar"/>
+        </action>
+        <action id="p">
+            <when state="none" next="p"/>
+        </action>
+        <action id="pa">
+            <when state="none" next="pa"/>
+            <when state="la_juk" next="la_juk_pa"/>
+            <when state="m-sha_juk" next="m-sha_juk_pa"/>
+            <when state="ma_juk" next="ma_juk_pa"/>
+            <when state="pa_juk" next="pa_juk_pa"/>
+            <when state="s-sha_juk" next="s-sha_juk_pa"/>
+        </action>
+        <action id="pha">
+            <when state="none" next="pha"/>
+            <when state="la_juk" next="la_juk_pha"/>
+            <when state="m-sha_juk" next="m-sha_juk_pha"/>
+            <when state="ma_juk" next="ma_juk_pha"/>
+            <when state="s-sha_juk" next="s-sha_juk_pha"/>
+        </action>
+        <action id="q">
+            <when state="none" next="qq"/>
+        </action>
+        <action id="r">
+            <when state="none" next="rr"/>
+        </action>
+        <action id="ra">
+            <when state="none" next="ra"/>
+        </action>
+        <action id="ra-fola">
+            <when state="none" next="ra-fola"/>
+            <when state="ba" next="ba_ra-fola"/>
+            <when state="bha" next="bha_ra-fola"/>
+            <when state="ccha" next="ccha_ra-fola"/>
+            <when state="cha_juk_ccha" next="cha_juk_ccha_ra-fola"/>
+            <when state="dhaa" next="dhaa_ra-fola"/>
+            <when state="doa" next="doa_ra-fola"/>
+            <when state="doa_juk_bha" next="doa_juk_bha_ra-fola"/>
+            <when state="ga" next="ga_ra-fola"/>
+            <when state="gha" next="gha-ra-fola"/>
+            <when state="ha" next="ha_ra-fola"/>
+            <when state="ka" next="ka_ra-fola"/>
+            <when state="ka_juk_toa" next="ka_juk_toa_ra-fola"/>
+            <when state="kha" next="kha_ra-fola"/>
+            <when state="la_juk_pha" next="la_juk_pha_ra-fola"/>
+            <when state="m-sha_juk_ka" next="m-sha_juk_ka_ra-fola"/>
+            <when state="m-sha_juk_pa" next="m-sha_juk_pa_ra-fola"/>
+            <when state="ma" next="ma_ra-fola"/>
+            <when state="ma_juk_bha" next="ma_juk_bha_ra-fola"/>
+            <when state="n-na_juk_dhaa" next="n-na_juk_dhaa_ra-fola"/>
+            <when state="n-na_juk_toa" next="n-na_juk_toa_ra-fola"/>
+            <when state="pa" next="pa_ra-fola"/>
+            <when state="pha" next="pha_ra-fola"/>
+            <when state="s-sha_juk_ka" next="s-sha_juk_ka_ra-fola"/>
+            <when state="s-sha_juk_toa" next="s-sha_juk_toa_ra-fola"/>
+            <when state="t-sha" next="t-sha_ra-fola"/>
+            <when state="ta" next="ta_ra-fola"/>
+            <when state="yuo_juk_ka" next="yuo_juk_ka_ra-fola"/>
+        </action>
+        <action id="ree -fola">
+            <when state="none" next="ree -fola"/>
+            <when state="ba_juk_dhaa" next="ba_juk_dhaa_ree-fola"/>
+            <when state="bha" next="bha_ree-fola"/>
+            <when state="ccha" next="ccha_ree-fola"/>
+            <when state="cha" next="cha_ree-fola"/>
+            <when state="cha_juk_ccha" next="cha_juk_ccha_ree-fola"/>
+            <when state="cha_juk_cha" next="cha_juk_cha_ree-fola"/>
+            <when state="cha_juk_nio" next="cha_juk_nio_ree-fola"/>
+            <when state="da" next="da_ree-fola"/>
+            <when state="da_juk_da" next="da_juk_da_ree-fola"/>
+            <when state="dha" next="dha_ree-fola"/>
+            <when state="dha-ra" next="dha-ra_ree-fola"/>
+            <when state="doa_juk_bha" next="doa_juk_bha_ree-fola"/>
+            <when state="doa_juk_dhaa" next="doa_juk_dhaa_ree-fola"/>
+            <when state="ga_juk_dhaa" next="ga_juk_dhaa_ree-fola"/>
+            <when state="ha" next="ha_ree-fola"/>
+            <when state="ha_juk_ma" next="ha_juk_ma_ree-fola"/>
+            <when state="hasanta" next="hasanta_ree-kar"/>
+            <when state="ja_juk_jha" next="ja_juk_jha_ree-fola"/>
+            <when state="ja_juk_nio" next="ja_juk_nio_ree-fola"/>
+            <when state="jha" next="jha_ree-fola"/>
+            <when state="ka" next="ka_ree-fola"/>
+            <when state="ka_juk_ka" next="ka_juk_ka_ree-fola"/>
+            <when state="ka_juk_la" next="ka_juk_la_ree-fola"/>
+            <when state="ka_juk_m-sha" next="ka_juk_m-sha_ree-fola"/>
+            <when state="ka_juk_m-sha_juk_n-na" next="ka_juk_m-sha_juk_n-na_ree-fola"/>
+            <when state="ka_juk_na" next="ka_juk_n-na_ree-fola"/>
+            <when state="ka_juk_toa" next="ka_juk_toa_ree-fola"/>
+            <when state="ka_juk_tta" next="ka_juk_tta_ree-fola"/>
+            <when state="ka_ra-fola" next="ka_ra-fola_ree-fola"/>
+            <when state="la_juk_ka" next="la_juk_ka_ree-kar"/>
+            <when state="m-na_juk_tta" next="m-na_juk_tta_ree-fola"/>
+            <when state="m-na_juk_ttha" next="m-na_juk_ttha_ree-fola"/>
+            <when state="m-sha_juk_ka" next="m-sha_juk_ka_ree-fola"/>
+            <when state="m-sha_juk_ka_ra-fola" next="m-sha_juk_ka_ra-fola_ree-fola"/>
+            <when state="m-sha_juk_pha" next="m-sha_juk_pha_ree-fola"/>
+            <when state="m-sha_juk_tta" next="m-sha_juk_tta_ree-fola"/>
+            <when state="m-sha_juk_ttha" next="m-sha_juk_ttha_ree-fola"/>
+            <when state="ma_juk_pha" next="ma_juk_pha_ree-fola"/>
+            <when state="n-na_juk_da" next="n-na_juk_da_ree-fola"/>
+            <when state="n-na_juk_dhaa" next="n-na_juk_dhaa_ree-fola"/>
+            <when state="n-na_juk_dhaa_ra-fola" next="n-na_juk_dhaa_ra-fola_ree-fola"/>
+            <when state="n-na_juk_toa" next="n-na_juk_toa_ree-fola"/>
+            <when state="n-na_juk_tta" next="n-na_juk_tta_ree-fola"/>
+            <when state="n-na_juk_ttha" next="n-na_juk_ttha_ree-fola"/>
+            <when state="nio" next="nio_ree-fola"/>
+            <when state="nio_juk_ccha" next="nio_juk_ccha_ree-fola"/>
+            <when state="nio_juk_cha" next="nio_juk_cha_ree-fola"/>
+            <when state="nio_juk_jha" next="nio_juk_jha_ree-fola"/>
+            <when state="pa_juk_toa" next="pa_juk_toa_ree-fola"/>
+            <when state="pa_juk_tta" next="pa_juk_tta_ree-fola"/>
+            <when state="pha" next="pha_ree-fola"/>
+            <when state="pha_juk_la" next="pha_juk_la_ree-fola"/>
+            <when state="pha_ra-fola" next="pha_ra-fola_ree-fola"/>
+            <when state="s-sha_juk_ka" next="s-sha_juk_ka_ree-fola"/>
+            <when state="s-sha_juk_ka_ra-fola" next="s-sha_juk_ka_ra-fola_ree-fola"/>
+            <when state="s-sha_juk_pha" next="s-sha_juk_pha_ree-fola"/>
+            <when state="s-sha_juk_toa" next="s-sha_juk_toa_ree-fola"/>
+            <when state="ta" next="toa_ree-fola"/>
+            <when state="ta_juk_ta" next="ta_juk_ta_ree-fola"/>
+            <when state="tta" next="tta_ree-fola"/>
+            <when state="tta_juk_tta" next="tta_juk_tta_ree-fola"/>
+            <when state="ttha" next="ttha_ree-fola"/>
+            <when state="yuo" next="yuo_ree-fola"/>
+            <when state="yuo_juk_ka" next="yuo_juk_ka_ree-fola"/>
+            <when state="yuo_juk_ka_juk_m-sha" next="yuo_juk_ka_juk_m-sha_ree-fola"/>
+            <when state="yuo_juk_ka_ra-fola" next="yuo_juk_ka_ra-fola_ree-fola"/>
+        </action>
+        <action id="ref">
+            <when state="none" next="ref"/>
+        </action>
+        <action id="rshee-kar">
+            <when state="none" next="rshee-kar"/>
+            <when state="ba_juk" next="ba_juk_rsheekar"/>
+            <when state="ccha_juk" next="ccha_juk_rshee-kar"/>
+            <when state="cha_juk" next="cha_juk_rshee-kar"/>
+            <when state="da_juk" next="da_juk_rshee-kar"/>
+            <when state="dhaa_juk" next="dhaa_juk_rshee-kar"/>
+            <when state="doa_juk" next="doa_juk_rshee-kar"/>
+            <when state="ga_juk" next="ga_juk_rshee-kar"/>
+            <when state="ha_juk" next="ha_juk_rshee-kar"/>
+            <when state="hasanta" next="hasanta_rshee-kar"/>
+            <when state="ja_juk" next="ja_juk_rshee-kar"/>
+            <when state="ka_juk" next="ka_juk_rshee-kar"/>
+            <when state="la_juk" next="la_juk_rshee-kar"/>
+            <when state="m-na_juk" next="m-na_juk_rshee-kar"/>
+            <when state="m-sha_juk" next="m-sha_juk_rshee-kar"/>
+            <when state="ma_juk" next="ma_juk_rshee-kar"/>
+            <when state="n-na_juk" next="n-na_juk_rshee-kar"/>
+            <when state="nio_juk" next="nio_juk_rshee-kar"/>
+            <when state="pa_juk" next="pa_juk_rshee-kar"/>
+            <when state="pha_juk" next="pha_juk_rshee-kar"/>
+            <when state="s-sha_juk" next="s-sha_juk_rshee-kar"/>
+            <when state="t-sha_juk" next="t-sha_juk_rshee-kar"/>
+            <when state="ta_juk" next="ta_juk_rshee-kar"/>
+            <when state="thoa_juk" next="thoa_juk_rshee-kar"/>
+            <when state="tta_juk" next="tta_juk_rshee-kar"/>
+            <when state="yuo_juk" next="yuo_juk_rshee-kar"/>
+        </action>
+        <action id="rsu-kar">
+            <when state="none" next="rsu-kar"/>
+            <when state="ba_juk" next="ba_juk_rsu-kar"/>
+            <when state="ba_juk_dhaa" next="ba_juk_dhaa_rsu-kar"/>
+            <when state="ba_ra-fola" next="ba_ra-fola_rsu-kar"/>
+            <when state="bha" next="bha_rsu-kar"/>
+            <when state="bha_ra-fola" next="bha_ra-fola_rsu-kar"/>
+            <when state="ccha" next="ccha_rsu-kar"/>
+            <when state="ccha_juk" next="ccha_juk_rsu-kar"/>
+            <when state="cha" next="cha_rsu-kar"/>
+            <when state="cha_juk" next="cha_juk_rsu-kar"/>
+            <when state="cha_juk_ccha" next="cha_juk_ccha_rsu-kar"/>
+            <when state="cha_juk_cha" next="cha_juk_cha_rsu-kar"/>
+            <when state="cha_juk_nio" next="cha_juk_nio_rsu-kar"/>
+            <when state="d-ra" next="d-ra_rsu-kar"/>
+            <when state="da" next="da_rsu-kar"/>
+            <when state="da_juk" next="da_juk_rsu-kar"/>
+            <when state="da_juk_da" next="da_juk_da_rsu-kar"/>
+            <when state="dha" next="dha_rsu-kar"/>
+            <when state="dha-ra" next="dha-ra_rsu-kar"/>
+            <when state="dhaa_juk" next="dhaa_juk_rsu-kar"/>
+            <when state="dhaa_ra-fola" next="dhaa_ra-fola_rsu-kar"/>
+            <when state="doa_juk" next="doa_juk_rsu-kar"/>
+            <when state="doa_juk_bha" next="doa_juk_bha_rsu-kar"/>
+            <when state="doa_juk_dhaa" next="doa_juk_dhaa_rsu-kar"/>
+            <when state="doa_ra-fola" next="doa_ra-fola_rsu-kar"/>
+            <when state="ga" next="ga_rsu-kar"/>
+            <when state="ga_juk" next="ga_juk_rsu-kar"/>
+            <when state="ga_juk_dhaa" next="ga_juk_dhaa_rsu-kar"/>
+            <when state="ga_ra-fola" next="ga_ra-fola_rsu-kar"/>
+            <when state="gha-ra-fola" next="gha_ra-fola_rsu-kar"/>
+            <when state="ha" next="ha_rsu-kar"/>
+            <when state="ha_juk" next="ha_juk_rsu-kar"/>
+            <when state="ha_juk_ma" next="ha_juk_ma_rsu-kar"/>
+            <when state="hasanta" next="hasanta_rsu-kar"/>
+            <when state="ja_juk" next="ja_juk_rsu-kar"/>
+            <when state="ja_juk_jha" next="ja_juk_jha_rsu-kar"/>
+            <when state="ja_juk_nio" next="ja_juk_nio_rsu-kar"/>
+            <when state="jha" next="jha_rsu-kar"/>
+            <when state="ka" next="ka_rsu-kar"/>
+            <when state="ka_juk" next="ka_juk_rsu-kar"/>
+            <when state="ka_juk_ka" next="ka_juk_ka_rsu-kar"/>
+            <when state="ka_juk_la" next="ka_juk_la_rsu-kar"/>
+            <when state="ka_juk_m-sha" next="ka_juk_m-sha_rsu-kar"/>
+            <when state="ka_juk_m-sha_juk_n-na" next="ka_juk_m-sha_n-na_rsu-kar"/>
+            <when state="ka_juk_na" next="ka_juk_n-na_rsu-kar"/>
+            <when state="ka_juk_toa" next="ka_juk_toa_rsu-kar"/>
+            <when state="ka_juk_tta" next="ka_juk_tta_rsu-kar"/>
+            <when state="ka_ra-fola" next="ka_ra-fola_rsu-kar"/>
+            <when state="kha_ra-fola" next="kha_ra-fola_rsu-kar"/>
+            <when state="la_juk" next="la_juk_rsu-kar"/>
+            <when state="la_juk_ka" next="la_juk_ka_rsu-kar"/>
+            <when state="la_juk_pha" next="la_juk_pha_rsu-kar"/>
+            <when state="m-na_juk" next="m-na_juk_rsu-kar"/>
+            <when state="m-na_juk_tta" next="m-na_juk_tta_rsu-kar"/>
+            <when state="m-na_juk_ttha" next="m-na_juk_ttha_rsu-kar"/>
+            <when state="m-sha_juk" next="m-sha_juk_rsu-kar"/>
+            <when state="m-sha_juk_ka" next="m-sha_juk_ka_rsu-kar"/>
+            <when state="m-sha_juk_ka_ra-fola" next="m-sha_juk_ka_ra-fola_rsu-kar"/>
+            <when state="m-sha_juk_m-na" next="m-sha_juk_m-na_rsu-kar"/>
+            <when state="m-sha_juk_pha" next="m-sha_juk_pha_rsu-kar"/>
+            <when state="m-sha_juk_tta" next="m-sha_juk_tta_rsu-kar"/>
+            <when state="m-sha_juk_ttha" next="m-sha_juk_ttha_rsu-kar"/>
+            <when state="ma_juk" next="ma_juk_rsu-kar"/>
+            <when state="ma_juk_pha" next="ma_juk_pha_rsu-kar"/>
+            <when state="n-na_juk" next="n-na_juk_rsu-kar"/>
+            <when state="n-na_juk_da" next="n-na_juk_da_rsu-kar"/>
+            <when state="n-na_juk_dhaa" next="n-na_juk_dhaa_rsu-kar"/>
+            <when state="n-na_juk_dhaa_ra-fola" next="n-na_juk_dhaa_ra-fola_rsu-kar"/>
+            <when state="n-na_juk_toa" next="n-na_juk_toa_rsu-kar"/>
+            <when state="n-na_juk_tta" next="n-na_juk_tta_rsu-kar"/>
+            <when state="n-na_juk_ttha" next="n-na_juk_ttha_rsu-kar"/>
+            <when state="nio" next="nio-rsu-kar"/>
+            <when state="nio_juk" next="nio_juk_rsu-kar"/>
+            <when state="nio_juk_ccha" next="nio_juk_ccha_rsu-kar"/>
+            <when state="nio_juk_cha" next="nio_juk_cha_rsu-kar"/>
+            <when state="nio_juk_jha" next="nio_juk_jha_rsu-kar"/>
+            <when state="pa_juk" next="pa_juk_rsu-kar"/>
+            <when state="pa_juk_toa" next="pa_juk_toa_rsu-kar"/>
+            <when state="pa_juk_tta" next="pa_juk_tta_rsu-kar"/>
+            <when state="pa_ra-fola" next="pa_ra-fola_rsu-kar"/>
+            <when state="pha" next="pha_rsu-kar"/>
+            <when state="pha_juk" next="pha_juk_rsu-kar"/>
+            <when state="pha_juk_la" next="pha_juk_la_rsu-kar"/>
+            <when state="pha_ra-fola" next="pha_ra-fola_rsu-kar"/>
+            <when state="ra" next="ra_rsu-kar"/>
+            <when state="s-sha_juk" next="s-sha_juk_rsu-kar"/>
+            <when state="s-sha_juk_ka" next="s-sha_juk_ka_rsu-kar"/>
+            <when state="s-sha_juk_ka_ra-fola" next="s-sha_juk_ka_ra-fola_rsu-kar"/>
+            <when state="s-sha_juk_pha" next="s-sha_juk_pha_rsu-kar"/>
+            <when state="s-sha_juk_toa" next="s-sha_juk_toa_rsu-kar"/>
+            <when state="t-sha" next="t-sha_rsu-kar"/>
+            <when state="t-sha_juk" next="t-sha_juk_rsu-kar"/>
+            <when state="t-sha_ra-fola" next="t-sha_ra-fola_rsu-kar"/>
+            <when state="ta" next="toa_rsu-kar"/>
+            <when state="ta_juk" next="ta_juk_rsu-kar"/>
+            <when state="ta_juk_ta" next="ta_juk_ta_rsu-kar"/>
+            <when state="ta_ra-fola" next="ta_ra-fola_rsu-kar"/>
+            <when state="thoa_juk" next="thoa_juk_rsu-kar"/>
+            <when state="tta" next="tta-rsu-kar"/>
+            <when state="tta_juk" next="tta_juk_rsu-kar"/>
+            <when state="tta_juk_tta" next="tta_juk_tta_rsu-kar"/>
+            <when state="ttha" next="ttha_rsu-kar"/>
+            <when state="yuo" next="yuo_rsu-kar"/>
+            <when state="yuo_juk" next="yuo_juk_rsu-kar"/>
+            <when state="yuo_juk_ka" next="yuo_juk_ka_rsu-kar"/>
+            <when state="yuo_juk_ka_juk_m-sha" next="yuo_juk_ka_juk_m-sha_rsu-kar"/>
+            <when state="yuo_juk_ka_ra-fola" next="yuo_juk_ka_ra-fola_rsu-kar"/>
+        </action>
+        <action id="s">
+            <when state="none" next="ss"/>
+        </action>
+        <action id="s-sha">
+            <when state="none" next="s-sha"/>
+            <when state="ka_juk" next="ka_juk_s-sha"/>
+            <when state="n-na_juk" next="n-na_juk_s-sha"/>
+            <when state="pa_juk" next="pa_juk_s-sha"/>
+        </action>
+        <action id="semi-kolon">
+            <when state="none" next="semi-kolon"/>
+        </action>
+        <action id="sml-thn">
+            <when state="none" next="sml-thn"/>
+            <when state="hasanta" next="hasanta_bk-Arrow"/>
+        </action>
+        <action id="space">
+            <when state="none" next="space"/>
+        </action>
+        <action id="t">
+            <when state="none" next="tt"/>
+        </action>
+        <action id="t-sha">
+            <when state="none" next="t-sha"/>
+        </action>
+        <action id="ta">
+            <when state="none" next="ta"/>
+            <when state="hasanta" next="hasanta_toa"/>
+            <when state="ka_juk" next="ka_juk_toa"/>
+            <when state="n-na_juk" next="n-na_juk_toa"/>
+            <when state="pa_juk" next="pa_juk_toa"/>
+            <when state="s-sha_juk" next="s-sha_juk_toa"/>
+            <when state="ta_juk" next="ta_juk_ta"/>
+        </action>
+        <action id="thoa">
+            <when state="none" next="thoa"/>
+            <when state="n-na_juk" next="n-na_juk_thoa"/>
+            <when state="s-sha_juk" next="s-sha_juk_thoa"/>
+            <when state="ta_juk" next="ta_juk_thoa"/>
+        </action>
+        <action id="tta">
+            <when state="none" next="tta"/>
+            <when state="ka_juk" next="ka_juk_tta"/>
+            <when state="la_juk" next="la_juk_tta"/>
+            <when state="m-na_juk" next="m-na_juk_tta"/>
+            <when state="m-sha_juk" next="m-sha_juk_tta"/>
+            <when state="n-na_juk" next="n-na_juk_tta"/>
+            <when state="pa_juk" next="pa_juk_tta"/>
+            <when state="s-sha_juk" next="s-sha_juk_tta"/>
+            <when state="tta_juk" next="tta_juk_tta"/>
+        </action>
+        <action id="ttha">
+            <when state="none" next="ttha"/>
+            <when state="m-na_juk" next="m-na_juk_ttha"/>
+            <when state="m-sha_juk" next="m-sha_juk_ttha"/>
+            <when state="n-na_juk" next="n-na_juk_ttha"/>
+        </action>
+        <action id="u">
+            <when state="none" next="uu"/>
+        </action>
+        <action id="u-1">
+            <when state="none" next="u-1"/>
+        </action>
+        <action id="u1">
+            <when state="none" next="u1"/>
+        </action>
+        <action id="u2">
+            <when state="none" next="u2"/>
+        </action>
+        <action id="u3">
+            <when state="none" next="u3"/>
+        </action>
+        <action id="u4">
+            <when state="none" next="u4"/>
+        </action>
+        <action id="u5">
+            <when state="none" next="u5"/>
+        </action>
+        <action id="u6">
+            <when state="none" next="u6"/>
+        </action>
+        <action id="u7">
+            <when state="none" next="u7"/>
+        </action>
+        <action id="u8">
+            <when state="none" next="u8"/>
+        </action>
+        <action id="u9">
+            <when state="none" next="u9"/>
+        </action>
+        <action id="u10">
+            <when state="none" next="u10"/>
+        </action>
+        <action id="u11">
+            <when state="none" next="u11"/>
+        </action>
+        <action id="u12">
+            <when state="none" next="u12"/>
+        </action>
+        <action id="v">
+            <when state="none" next="v"/>
+        </action>
+        <action id="w">
+            <when state="none" next="ww"/>
+        </action>
+        <action id="x">
+            <when state="none" next="x"/>
+        </action>
+        <action id="y">
+            <when state="none" next="yy"/>
+        </action>
+        <action id="yuo">
+            <when state="none" next="yuo"/>
+        </action>
+        <action id="z">
+            <when state="none" next="z"/>
+        </action>
+        <action id="{">
+            <when state="none" next="2{"/>
+        </action>
+        <action id="|">
+            <when state="none" next="2|"/>
+        </action>
+        <action id="}">
+            <when state="none" next="2}"/>
+        </action>
+        <action id="~">
+            <when state="none" next="2~"/>
+        </action>
+    </actions>
+    <terminators>
+        <when state="&#x003C;&#x003C;" output="&#x003C;"/>
+        <when state="&#x003E;&#x003E;" output="&#x003E;"/>
+        <when state="//" output="/"/>
+        <when state="1&#x0027;" output="&#x0027;"/>
+        <when state="1," output=","/>
+        <when state="1-" output="-"/>
+        <when state="1." output="."/>
+        <when state="1/" output="/"/>
+        <when state="100" output="0"/>
+        <when state="11" output="1"/>
+        <when state="1;" output=";"/>
+        <when state="1=" output="="/>
+        <when state="1?" output="?"/>
+        <when state="1[" output="["/>
+        <when state="1\" output="\"/>
+        <when state="1]" output="]"/>
+        <when state="1`" output="`"/>
+        <when state="1a" output="a"/>
+        <when state="2!" output="!"/>
+        <when state="2#" output="#"/>
+        <when state="2$" output="$"/>
+        <when state="2%" output="%"/>
+        <when state="2&#x0022;" output="&#x0022;"/>
+        <when state="2&#x0026;" output="&#x0026;"/>
+        <when state="2(" output="("/>
+        <when state="2)" output=")"/>
+        <when state="2*" output="*"/>
+        <when state="2+" output="+"/>
+        <when state="22" output="2"/>
+        <when state="23@" output="@"/>
+        <when state="2:" output=":"/>
+        <when state="2^" output="^"/>
+        <when state="2_" output="_"/>
+        <when state="2nd-bra" output="{"/>
+        <when state="2nd-bra2" output="}"/>
+        <when state="2{" output="{"/>
+        <when state="2|" output="|"/>
+        <when state="2}" output="}"/>
+        <when state="2~" output="~"/>
+        <when state="33" output="3"/>
+        <when state="3rd-bra" output="["/>
+        <when state="3rd-bra2" output="]"/>
+        <when state="44" output="4"/>
+        <when state="55" output="5"/>
+        <when state="66" output="6"/>
+        <when state="77" output="7"/>
+        <when state="88" output="8"/>
+        <when state="99" output="9"/>
+        <when state="??" output="?"/>
+        <when state="AA" output="A"/>
+        <when state="BB" output="B"/>
+        <when state="CC" output="C"/>
+        <when state="DD" output="D"/>
+        <when state="EE" output="E"/>
+        <when state="FF" output="F"/>
+        <when state="GG" output="G"/>
+        <when state="HH" output="H"/>
+        <when state="II" output="I"/>
+        <when state="JJ" output="J"/>
+        <when state="KK" output="K"/>
+        <when state="LL" output="L"/>
+        <when state="MM" output="M"/>
+        <when state="NN" output="N"/>
+        <when state="OO" output="O"/>
+        <when state="PP" output="P"/>
+        <when state="QQ" output="Q"/>
+        <when state="RR" output="R"/>
+        <when state="SS" output="S"/>
+        <when state="TT" output="T"/>
+        <when state="UU" output="U"/>
+        <when state="VV" output="V"/>
+        <when state="WW" output="W"/>
+        <when state="XX" output="X"/>
+        <when state="YY" output="Y"/>
+        <when state="ZZ" output="Z"/>
+        <when state="a&#x0022;" output="Ó"/>
+        <when state="a&#x0027;" output="Õ"/>
+        <when state="a-kar" output="‡"/>
+        <when state="aa" output="A"/>
+        <when state="aa-kar" output="v"/>
+        <when state="ants-a" output="q"/>
+        <when state="ants_ja" output="h"/>
+        <when state="anusa" output="s"/>
+        <when state="ba" output="e"/>
+        <when state="ba_juk" output="e&#x0026;"/>
+        <when state="ba_juk_ba" output="eŸ"/>
+        <when state="ba_juk_da" output="ã"/>
+        <when state="ba_juk_dhaa" output="ä"/>
+        <when state="ba_juk_dhaa_dru-kar" output="ä‚"/>
+        <when state="ba_juk_dhaa_ree-fola" output="ä…"/>
+        <when state="ba_juk_dhaa_rsu-kar" output="äz"/>
+        <when state="ba_juk_dhree-kar" output="eC"/>
+        <when state="ba_juk_dru-kar" output="eE"/>
+        <when state="ba_juk_ja" output="â"/>
+        <when state="ba_juk_la" output="eø"/>
+        <when state="ba_juk_n-na" output="eœ"/>
+        <when state="ba_juk_rsheekar" output="eB"/>
+        <when state="ba_juk_rsu-kar" output="eD"/>
+        <when state="ba_ra-fola" output="eª"/>
+        <when state="ba_ra-fola_dru-kar" output="eªƒ"/>
+        <when state="ba_ra-fola_rsu-kar" output="eªæ"/>
+        <when state="bb" output="b"/>
+        <when state="bha" output="f"/>
+        <when state="bha_ra-fola" output="å"/>
+        <when state="bha_ra-fola_dru-kar" output="åƒ"/>
+        <when state="bha_ra-fola_rsu-kar" output="åæ"/>
+        <when state="bha_ree-fola" output="f…"/>
+        <when state="bha_rsu-kar" output="fz"/>
+        <when state="bsrga" output="t"/>
+        <when state="c" output="c"/>
+        <when state="ccha" output="Q"/>
+        <when state="ccha_dru-kar" output="Q‚"/>
+        <when state="ccha_juk" output="Q&#x0026;"/>
+        <when state="ccha_juk_ba" output="Q¡"/>
+        <when state="ccha_juk_dhree-kar" output="QC"/>
+        <when state="ccha_juk_dru-kar" output="QE"/>
+        <when state="ccha_juk_rshee-kar" output="QB"/>
+        <when state="ccha_juk_rsu-kar" output="QD"/>
+        <when state="ccha_ra-fola" output="Q«"/>
+        <when state="ccha_ree-fola" output="Q…"/>
+        <when state="ccha_rsu-kar" output="Qz"/>
+        <when state="cha" output="P"/>
+        <when state="cha_dru-kar" output="P‚"/>
+        <when state="cha_juk" output="P&#x0026;"/>
+        <when state="cha_juk_ba" output="P¡"/>
+        <when state="cha_juk_ccha" output="”Q"/>
+        <when state="cha_juk_ccha_dru-kar" output="”Q‚"/>
+        <when state="cha_juk_ccha_juk" output="”Q&#x0026;"/>
+        <when state="cha_juk_ccha_juk_ba" output="”Q¡"/>
+        <when state="cha_juk_ccha_ra-fola" output="”Q«"/>
+        <when state="cha_juk_ccha_ree-fola" output="”Q…"/>
+        <when state="cha_juk_ccha_rsu-kar" output="”Qz"/>
+        <when state="cha_juk_cha" output="”P"/>
+        <when state="cha_juk_cha_dru-kar" output="”P‚"/>
+        <when state="cha_juk_cha_ree-fola" output="”P…"/>
+        <when state="cha_juk_cha_rsu-kar" output="”Pz"/>
+        <when state="cha_juk_dhree-kar" output="PC"/>
+        <when state="cha_juk_dru-kar" output="PE"/>
+        <when state="cha_juk_nio" output="”T"/>
+        <when state="cha_juk_nio_dru-kar" output="”T‚"/>
+        <when state="cha_juk_nio_ree-fola" output="”T…"/>
+        <when state="cha_juk_nio_rsu-kar" output="”Tz"/>
+        <when state="cha_juk_rshee-kar" output="PB"/>
+        <when state="cha_juk_rsu-kar" output="PD"/>
+        <when state="cha_ree-fola" output="P…"/>
+        <when state="cha_rsu-kar" output="Pz"/>
+        <when state="d" output="d"/>
+        <when state="d-ra" output="o"/>
+        <when state="d-ra_rsu-kar" output="o–"/>
+        <when state="da" output="W"/>
+        <when state="da_juk" output="W&#x0026;"/>
+        <when state="da_juk_da" output="Ç"/>
+        <when state="da_juk_da_dru-kar" output="Ç‚"/>
+        <when state="da_juk_da_ree-fola" output="Ç…"/>
+        <when state="da_juk_da_rsu-kar" output="Çz"/>
+        <when state="da_juk_dhree-kar" output="WC"/>
+        <when state="da_juk_dru-kar" output="WE"/>
+        <when state="da_juk_rshee-kar" output="WB"/>
+        <when state="da_juk_rsu-kar" output="WD"/>
+        <when state="da_ree-fola" output="W…"/>
+        <when state="da_rsu-kar" output="Wz"/>
+        <when state="dari" output="|"/>
+        <when state="dha" output="X"/>
+        <when state="dha-ra" output="p"/>
+        <when state="dha-ra_ree-fola" output="p…"/>
+        <when state="dha-ra_rsu-kar" output="p–"/>
+        <when state="dha_dru-kar" output="X‚"/>
+        <when state="dha_ree-fola" output="X…"/>
+        <when state="dha_rsu-kar" output="Xz"/>
+        <when state="dhaa" output="a"/>
+        <when state="dhaa_juk" output="a&#x0026;"/>
+        <when state="dhaa_juk_ba" output="aŸ"/>
+        <when state="dhaa_juk_dhree-kar" output="aC"/>
+        <when state="dhaa_juk_dru-kar" output="aE"/>
+        <when state="dhaa_juk_ma" output="a¥"/>
+        <when state="dhaa_juk_n-na" output="aœ"/>
+        <when state="dhaa_juk_rshee-kar" output="aB"/>
+        <when state="dhaa_juk_rsu-kar" output="aD"/>
+        <when state="dhaa_ra-fola" output="aª"/>
+        <when state="dhaa_ra-fola_dru-kar" output="aªƒ"/>
+        <when state="dhaa_ra-fola_rsu-kar" output="aªæ"/>
+        <when state="dhree-kar" output="x"/>
+        <when state="doa" output="`"/>
+        <when state="doa_juk" output="`&#x0026;"/>
+        <when state="doa_juk_ba" output="Ø"/>
+        <when state="doa_juk_bha" output="™¢"/>
+        <when state="doa_juk_bha_dru-kar" output="™¢‚"/>
+        <when state="doa_juk_bha_ra-fola" output="™£"/>
+        <when state="doa_juk_bha_ree-fola" output="™¢…"/>
+        <when state="doa_juk_bha_rsu-kar" output="™¢z"/>
+        <when state="doa_juk_dhaa" output="×"/>
+        <when state="doa_juk_dhaa_dru-kar" output="×‚"/>
+        <when state="doa_juk_dhaa_ree-fola" output="×…"/>
+        <when state="doa_juk_dhaa_rsu-kar" output="×z"/>
+        <when state="doa_juk_dhree-kar" output="`C"/>
+        <when state="doa_juk_doa" output="Ï"/>
+        <when state="doa_juk_dru-kar" output="`E"/>
+        <when state="doa_juk_ga" output="˜M"/>
+        <when state="doa_juk_gha" output="˜N"/>
+        <when state="doa_juk_ma" output="Ù"/>
+        <when state="doa_juk_n-na" output="`œ"/>
+        <when state="doa_juk_rshee-kar" output="`B"/>
+        <when state="doa_juk_rsu-kar" output="`D"/>
+        <when state="doa_ra-fola" output="`ª"/>
+        <when state="doa_ra-fola_dru-kar" output="`ªƒ"/>
+        <when state="doa_ra-fola_rsu-kar" output="`ªæ"/>
+        <when state="dru-kar" output="~"/>
+        <when state="ee" output="e"/>
+        <when state="f" output="f"/>
+        <when state="ful-stp" output="."/>
+        <when state="ga" output="M"/>
+        <when state="ga_juk" output="M&#x0026;"/>
+        <when state="ga_juk_ba" output="M¦"/>
+        <when state="ga_juk_dhaa" output="»"/>
+        <when state="ga_juk_dhaa_dru-kar" output="»‚"/>
+        <when state="ga_juk_dhaa_ree-fola" output="»…"/>
+        <when state="ga_juk_dhaa_rsu-kar" output="»z"/>
+        <when state="ga_juk_dhree-kar" output="MC"/>
+        <when state="ga_juk_doa" output="º"/>
+        <when state="ga_juk_dru-kar" output="ME"/>
+        <when state="ga_juk_ga" output="¹"/>
+        <when state="ga_juk_la" output="Mø"/>
+        <when state="ga_juk_m-na" output="Mœ"/>
+        <when state="ga_juk_ma" output="M¥"/>
+        <when state="ga_juk_n-na" output="Mœ"/>
+        <when state="ga_juk_rshee-kar" output="MB"/>
+        <when state="ga_juk_rsu-kar" output="MD"/>
+        <when state="ga_ra-fola" output="MÖ"/>
+        <when state="ga_ra-fola_dru-kar" output="MÖƒ"/>
+        <when state="ga_ra-fola_rsu-kar" output="MÖæ"/>
+        <when state="ga_rsu-kar" output="¸"/>
+        <when state="gg" output="g"/>
+        <when state="gha" output="N"/>
+        <when state="gha-ra-fola" output="Nª"/>
+        <when state="gha_ra-fola_dru-kar" output="Nªƒ"/>
+        <when state="gha_ra-fola_rsu-kar" output="Nªæ"/>
+        <when state="grt-thn" output="&#x003E;"/>
+        <when state="ha" output="n"/>
+        <when state="ha_juk" output="n&#x0026;"/>
+        <when state="ha_juk_ba" output="nŸ"/>
+        <when state="ha_juk_dhree-kar" output="nC"/>
+        <when state="ha_juk_dru-kar" output="nE"/>
+        <when state="ha_juk_fulstp" output="n¡"/>
+        <when state="ha_juk_la" output="n¬"/>
+        <when state="ha_juk_m-na" output="nè"/>
+        <when state="ha_juk_ma" output="þ"/>
+        <when state="ha_juk_ma_dru-kar" output="þ‚"/>
+        <when state="ha_juk_ma_ree-fola" output="þ…"/>
+        <when state="ha_juk_ma_rsu-kar" output="þz"/>
+        <when state="ha_juk_n-na" output="ý"/>
+        <when state="ha_juk_rshee-kar" output="nB"/>
+        <when state="ha_juk_rsu-kar" output="nD"/>
+        <when state="ha_ra-fola" output="n«"/>
+        <when state="ha_ree-fola" output="ü"/>
+        <when state="ha_rsu-kar" output="û"/>
+        <when state="hasanta" output="&#x0026;"/>
+        <when state="hasanta_a-kar" output="G"/>
+        <when state="hasanta_aa-kar" output="Av"/>
+        <when state="hasanta_ba" output="¦"/>
+        <when state="hasanta_bk-Arrow" output="…"/>
+        <when state="hasanta_dari" output="\"/>
+        <when state="hasanta_dhree-kar" output="C"/>
+        <when state="hasanta_dru-kar" output="E"/>
+        <when state="hasanta_fd-arrow" output="F"/>
+        <when state="hasanta_juk" output="&#x0026;"/>
+        <when state="hasanta_la" output="ø"/>
+        <when state="hasanta_ma" output="¥"/>
+        <when state="hasanta_n-na" output="œ"/>
+        <when state="hasanta_oi-kar" output="H"/>
+        <when state="hasanta_ou-kar" output="J"/>
+        <when state="hasanta_ree-kar" output="F"/>
+        <when state="hasanta_rshee-kar" output="B"/>
+        <when state="hasanta_rsu-kar" output="D"/>
+        <when state="hasanta_toa" output="Í"/>
+        <when state="hh" output="h"/>
+        <when state="ii" output="i"/>
+        <when state="ja" output="R"/>
+        <when state="ja-fola" output="¨ "/>
+        <when state="ja_juk" output="R&#x0026;"/>
+        <when state="ja_juk_ba" output="R¡"/>
+        <when state="ja_juk_dhree-kar" output="RC"/>
+        <when state="ja_juk_dru-kar" output="RE"/>
+        <when state="ja_juk_ja" output="¾"/>
+        <when state="ja_juk_ja_juk" output="¾&#x0026;"/>
+        <when state="ja_juk_ja_juk_ba" output="¾¡"/>
+        <when state="ja_juk_jha" output="À"/>
+        <when state="ja_juk_jha_ree-fola" output="À…"/>
+        <when state="ja_juk_jha_rsu-kar" output="À–"/>
+        <when state="ja_juk_nio" output="Á"/>
+        <when state="ja_juk_nio_dru-kar" output="Á…"/>
+        <when state="ja_juk_nio_ree-fola" output="Á…"/>
+        <when state="ja_juk_nio_rsu-kar" output="Áz"/>
+        <when state="ja_juk_rshee-kar" output="RB"/>
+        <when state="ja_juk_rsu-kar" output="RD"/>
+        <when state="jha" output="S"/>
+        <when state="jha_ree-fola" output="S…"/>
+        <when state="jha_rsu-kar" output="Sz"/>
+        <when state="jj" output="j"/>
+        <when state="k-ma" output=","/>
+        <when state="ka" output="K"/>
+        <when state="ka_juk" output="K&#x0026;"/>
+        <when state="ka_juk_ba" output="K¡"/>
+        <when state="ka_juk_dhree-kar" output="KC"/>
+        <when state="ka_juk_dru-kar" output="KE"/>
+        <when state="ka_juk_ka" output="°"/>
+        <when state="ka_juk_ka_dru-kar" output="°‚"/>
+        <when state="ka_juk_ka_ree-fola" output="°…"/>
+        <when state="ka_juk_ka_rsu-kar" output="°z"/>
+        <when state="ka_juk_la" output="K¬"/>
+        <when state="ka_juk_la_dru-kar" output="K¬‚"/>
+        <when state="ka_juk_la_ree-fola" output="K¬…"/>
+        <when state="ka_juk_la_rsu-kar" output="K¬z"/>
+        <when state="ka_juk_m-sha" output="ÿ"/>
+        <when state="ka_juk_m-sha_dru-kar" output="ÿ‚"/>
+        <when state="ka_juk_m-sha_juk" output="ÿ&#x0026;"/>
+        <when state="ka_juk_m-sha_juk_ma" output="²"/>
+        <when state="ka_juk_m-sha_juk_n-na" output="ÿè"/>
+        <when state="ka_juk_m-sha_juk_n-na_dru-kar" output="ÿè‚"/>
+        <when state="ka_juk_m-sha_juk_n-na_ree-fola" output="ÿè…"/>
+        <when state="ka_juk_m-sha_n-na_rsu-kar" output="ÿèz"/>
+        <when state="ka_juk_m-sha_ree-fola" output="ÿ…"/>
+        <when state="ka_juk_m-sha_rsu-kar" output="ÿz"/>
+        <when state="ka_juk_ma" output="´"/>
+        <when state="ka_juk_n-na_dru-kar" output="Kè‚"/>
+        <when state="ka_juk_n-na_ree-fola" output="Kè…"/>
+        <when state="ka_juk_n-na_rsu-kar" output="Kèz"/>
+        <when state="ka_juk_na" output="Kè"/>
+        <when state="ka_juk_rshee-kar" output="KB"/>
+        <when state="ka_juk_rsu-kar" output="KD"/>
+        <when state="ka_juk_s-sha" output="·"/>
+        <when state="ka_juk_toa" output="³"/>
+        <when state="ka_juk_toa_dru-kar" output="³‚"/>
+        <when state="ka_juk_toa_ra-fola" output="³«"/>
+        <when state="ka_juk_toa_ree-fola" output="³…"/>
+        <when state="ka_juk_toa_rsu-kar" output="³z"/>
+        <when state="ka_juk_tta" output="±"/>
+        <when state="ka_juk_tta_dru-kar" output="±‚"/>
+        <when state="ka_juk_tta_ree-fola" output="±…"/>
+        <when state="ka_juk_tta_rsu-kar" output="±z"/>
+        <when state="ka_ra-fola" output="µ"/>
+        <when state="ka_ra-fola_dru-kar" output="µ‚"/>
+        <when state="ka_ra-fola_ree-fola" output="µ…"/>
+        <when state="ka_ra-fola_rsu-kar" output="µz"/>
+        <when state="ka_ree-fola" output="K…"/>
+        <when state="ka_rsu-kar" output="Kz"/>
+        <when state="kha" output="L"/>
+        <when state="kha_ra-fola" output="Lª"/>
+        <when state="kha_ra-fola_dru-kar" output="Lªƒ"/>
+        <when state="kha_ra-fola_rsu-kar" output="Lªæ"/>
+        <when state="kk" output="k"/>
+        <when state="kndta" output="r"/>
+        <when state="kolon" output=":"/>
+        <when state="l-1" output="Ô"/>
+        <when state="l1" output="1"/>
+        <when state="l10" output="0"/>
+        <when state="l11" output="-"/>
+        <when state="l12" output="="/>
+        <when state="l2" output="2"/>
+        <when state="l3" output="3"/>
+        <when state="l4" output="4"/>
+        <when state="l5" output="5"/>
+        <when state="l6" output="6"/>
+        <when state="l7" output="7"/>
+        <when state="l8" output="8"/>
+        <when state="l9" output="9"/>
+        <when state="la" output="j"/>
+        <when state="la_juk" output="j&#x0026;"/>
+        <when state="la_juk_ba" output="j¦"/>
+        <when state="la_juk_da" output="ì"/>
+        <when state="la_juk_dhree-kar" output="jC"/>
+        <when state="la_juk_dru-kar" output="jE"/>
+        <when state="la_juk_ga" output="ê"/>
+        <when state="la_juk_ka" output="é"/>
+        <when state="la_juk_ka_dru-kar" output="é‚"/>
+        <when state="la_juk_ka_ree-kar" output="é…"/>
+        <when state="la_juk_ka_rsu-kar" output="éz"/>
+        <when state="la_juk_la" output="jø"/>
+        <when state="la_juk_ma" output="j¥"/>
+        <when state="la_juk_pa" output="í"/>
+        <when state="la_juk_pha" output="î"/>
+        <when state="la_juk_pha_ra-fola" output="î«"/>
+        <when state="la_juk_pha_rsu-kar" output="îz"/>
+        <when state="la_juk_rshee-kar" output="jB"/>
+        <when state="la_juk_rsu-kar" output="jD"/>
+        <when state="la_juk_tta" output="ë"/>
+        <when state="ll" output="l"/>
+        <when state="m" output="m"/>
+        <when state="m-na" output="Y"/>
+        <when state="m-na_juk" output="Y&#x0026;"/>
+        <when state="m-na_juk_ba" output="Y¦"/>
+        <when state="m-na_juk_da" output="Ð"/>
+        <when state="m-na_juk_dhree-kar" output="YC"/>
+        <when state="m-na_juk_dru-kar" output="YE"/>
+        <when state="m-na_juk_m-na" output="Yœ"/>
+        <when state="m-na_juk_n-na" output="Yœ"/>
+        <when state="m-na_juk_rshee-kar" output="YB"/>
+        <when state="m-na_juk_rsu-kar" output="YD"/>
+        <when state="m-na_juk_tta" output="È"/>
+        <when state="m-na_juk_tta_dru-kar" output="È‚"/>
+        <when state="m-na_juk_tta_ree-fola" output="È…"/>
+        <when state="m-na_juk_tta_rsu-kar" output="Èz"/>
+        <when state="m-na_juk_ttha" output="É"/>
+        <when state="m-na_juk_ttha_dru-kar" output="É‚"/>
+        <when state="m-na_juk_ttha_ree-fola" output="É…"/>
+        <when state="m-na_juk_ttha_rsu-kar" output="Éz"/>
+        <when state="m-sha" output="l"/>
+        <when state="m-sha_juk" output="l&#x0026;"/>
+        <when state="m-sha_juk_ba" output="l¦"/>
+        <when state="m-sha_juk_dhree-kar" output="lC"/>
+        <when state="m-sha_juk_dru-kar" output="lE"/>
+        <when state="m-sha_juk_ka" output="®‹"/>
+        <when state="m-sha_juk_ka_dru-kar" output="®‹‚"/>
+        <when state="m-sha_juk_ka_ra-fola" output="®Œ"/>
+        <when state="m-sha_juk_ka_ra-fola_dru-kar" output="®Œ‚"/>
+        <when state="m-sha_juk_ka_ra-fola_ree-fola" output="®Œ…"/>
+        <when state="m-sha_juk_ka_ra-fola_rsu-kar" output="®Œz"/>
+        <when state="m-sha_juk_ka_ree-fola" output="®‹…"/>
+        <when state="m-sha_juk_ka_rsu-kar" output="®‹z"/>
+        <when state="m-sha_juk_m-na" output="ò"/>
+        <when state="m-sha_juk_m-na_rsu-kar" output="òz"/>
+        <when state="m-sha_juk_ma" output="®§"/>
+        <when state="m-sha_juk_pa" output="®ú"/>
+        <when state="m-sha_juk_pa_ra-fola" output="®úÖ"/>
+        <when state="m-sha_juk_pha" output="õ"/>
+        <when state="m-sha_juk_pha_dru-kar" output="õ‚"/>
+        <when state="m-sha_juk_pha_ree-fola" output="õ…"/>
+        <when state="m-sha_juk_pha_rsu-kar" output="õz "/>
+        <when state="m-sha_juk_rshee-kar" output="lB"/>
+        <when state="m-sha_juk_rsu-kar" output="lD"/>
+        <when state="m-sha_juk_tta" output="ó"/>
+        <when state="m-sha_juk_tta_dru-kar" output="ó‚"/>
+        <when state="m-sha_juk_tta_ree-fola" output="ó…"/>
+        <when state="m-sha_juk_tta_rsu-kar" output="óz"/>
+        <when state="m-sha_juk_ttha" output="ô"/>
+        <when state="m-sha_juk_ttha_dru-kar" output="ô‚"/>
+        <when state="m-sha_juk_ttha_ree-fola" output="ô…"/>
+        <when state="m-sha_juk_ttha_rsu-kar" output="ôz"/>
+        <when state="ma" output="g"/>
+        <when state="ma_juk" output="g&#x0026;"/>
+        <when state="ma_juk_ba" output="¤^"/>
+        <when state="ma_juk_bha" output="¤¢"/>
+        <when state="ma_juk_bha_ra-fola" output="¤£"/>
+        <when state="ma_juk_dhree-kar" output="gC"/>
+        <when state="ma_juk_dru-kar" output="gE"/>
+        <when state="ma_juk_la" output="¤ø"/>
+        <when state="ma_juk_ma" output="¤§"/>
+        <when state="ma_juk_n-na" output="¤œ"/>
+        <when state="ma_juk_pa" output="¤ú"/>
+        <when state="ma_juk_pha" output="ç"/>
+        <when state="ma_juk_pha_dru-kar" output="ç‚"/>
+        <when state="ma_juk_pha_ree-fola" output="ç…"/>
+        <when state="ma_juk_pha_rsu-kar" output="çz"/>
+        <when state="ma_juk_rshee-kar" output="gB"/>
+        <when state="ma_juk_rsu-kar" output="gD"/>
+        <when state="ma_ra-fola" output="¤ª"/>
+        <when state="n" output="n"/>
+        <when state="n-na" output="b"/>
+        <when state="n-na_juk" output="b&#x0026;"/>
+        <when state="n-na_juk_ba" output="š^"/>
+        <when state="n-na_juk_da" output="Û"/>
+        <when state="n-na_juk_da_dru-kar" output="Û‚"/>
+        <when state="n-na_juk_da_ree-fola" output="Û…"/>
+        <when state="n-na_juk_da_rsu-kar" output="Ûz"/>
+        <when state="n-na_juk_dhaa" output="Ü"/>
+        <when state="n-na_juk_dhaa_dru-kar" output="Ü‚"/>
+        <when state="n-na_juk_dhaa_ra-fola" output="Ü«"/>
+        <when state="n-na_juk_dhaa_ra-fola_dru-kar" output="Ü«‚"/>
+        <when state="n-na_juk_dhaa_ra-fola_ree-fola" output="Ü«…"/>
+        <when state="n-na_juk_dhaa_ra-fola_rsu-kar" output="Ü«z"/>
+        <when state="n-na_juk_dhaa_ree-fola" output="Ü…"/>
+        <when state="n-na_juk_dhaa_rsu-kar" output="Üz"/>
+        <when state="n-na_juk_dhree-kar" output="bC"/>
+        <when state="n-na_juk_doa" output="›`"/>
+        <when state="n-na_juk_doa_juk" output="›`&#x0026;"/>
+        <when state="n-na_juk_doa_juk_ba" output="›Ø"/>
+        <when state="n-na_juk_dru-kar" output="bE"/>
+        <when state="n-na_juk_ma" output="b¥"/>
+        <when state="n-na_juk_n-na" output="bœ"/>
+        <when state="n-na_juk_rshee-kar" output="bB"/>
+        <when state="n-na_juk_rsu-kar" output="bD"/>
+        <when state="n-na_juk_s-sha" output="Ý"/>
+        <when state="n-na_juk_thoa" output="š’"/>
+        <when state="n-na_juk_toa" output="šÍ"/>
+        <when state="n-na_juk_toa_dru-kar" output="šÍ‚"/>
+        <when state="n-na_juk_toa_ra-fola" output="š¿"/>
+        <when state="n-na_juk_toa_ree-fola" output="šÍ…"/>
+        <when state="n-na_juk_toa_rsu-kar" output="š‘"/>
+        <when state="n-na_juk_tta" output="›U"/>
+        <when state="n-na_juk_tta_dru-kar" output="›U‚"/>
+        <when state="n-na_juk_tta_ree-fola" output="›U…"/>
+        <when state="n-na_juk_tta_rsu-kar" output="›Uz"/>
+        <when state="n-na_juk_ttha" output="Ú"/>
+        <when state="n-na_juk_ttha_dru-kar" output="Ú‚"/>
+        <when state="n-na_juk_ttha_ree-fola" output="Ú…"/>
+        <when state="n-na_juk_ttha_rsu-kar" output="Úz"/>
+        <when state="nio" output="T"/>
+        <when state="nio-rsu-kar" output="Tz"/>
+        <when state="nio_juk" output="T&#x0026;"/>
+        <when state="nio_juk_ccha" output="Ã"/>
+        <when state="nio_juk_ccha_dru-kar" output="Ã‚"/>
+        <when state="nio_juk_ccha_ree-fola" output="Ã…"/>
+        <when state="nio_juk_ccha_rsu-kar" output="Ã–"/>
+        <when state="nio_juk_cha" output="Â"/>
+        <when state="nio_juk_cha_dru-kar" output="Å…"/>
+        <when state="nio_juk_cha_ree-fola" output="Â…"/>
+        <when state="nio_juk_cha_rsu-kar" output="Âz"/>
+        <when state="nio_juk_dhree-kar" output="TC"/>
+        <when state="nio_juk_dru-kar" output="TE"/>
+        <when state="nio_juk_ja" output="Ä"/>
+        <when state="nio_juk_jha" output="Å"/>
+        <when state="nio_juk_jha_ree-fola" output="Å„"/>
+        <when state="nio_juk_jha_rsu-kar" output="Å–"/>
+        <when state="nio_juk_rshee-kar" output="TB"/>
+        <when state="nio_juk_rsu-kar" output="TD"/>
+        <when state="nio_ree-fola" output="T…"/>
+        <when state="oi-kar" output="‰"/>
+        <when state="oo" output="o"/>
+        <when state="ou" output="I"/>
+        <when state="ou-kar" output="Š"/>
+        <when state="p" output="p"/>
+        <when state="pa" output="c"/>
+        <when state="pa_juk" output="c&#x0026;"/>
+        <when state="pa_juk_ba" output="c¦"/>
+        <when state="pa_juk_dhree-kar" output="cC"/>
+        <when state="pa_juk_dru-kar" output="cE"/>
+        <when state="pa_juk_la" output="cø"/>
+        <when state="pa_juk_n-na" output="cœ"/>
+        <when state="pa_juk_pa" output="à"/>
+        <when state="pa_juk_rshee-kar" output="cB"/>
+        <when state="pa_juk_rsu-kar" output="cD"/>
+        <when state="pa_juk_s-sha" output="á"/>
+        <when state="pa_juk_toa" output="ß"/>
+        <when state="pa_juk_toa_dru-kar" output="ß‚"/>
+        <when state="pa_juk_toa_ree-fola" output="ß…"/>
+        <when state="pa_juk_toa_rsu-kar" output="ßz"/>
+        <when state="pa_juk_tta" output="Þ"/>
+        <when state="pa_juk_tta_dru-kar" output="Þ‚"/>
+        <when state="pa_juk_tta_ree-fola" output="Þ…"/>
+        <when state="pa_juk_tta_rsu-kar" output="Þz"/>
+        <when state="pa_ra-fola" output="cÖ"/>
+        <when state="pa_ra-fola_dru-kar" output="cÖƒ"/>
+        <when state="pa_ra-fola_rsu-kar" output="cÖæ"/>
+        <when state="pha" output="d"/>
+        <when state="pha_dru-kar" output="d‚"/>
+        <when state="pha_juk" output="d&#x0026;"/>
+        <when state="pha_juk_dhree-kar" output="dC"/>
+        <when state="pha_juk_dru-kar" output="dE"/>
+        <when state="pha_juk_la" output="d¬"/>
+        <when state="pha_juk_la_dru-kar" output="d¬‚"/>
+        <when state="pha_juk_la_ree-fola" output="d¬…"/>
+        <when state="pha_juk_la_rsu-kar" output="d¬z"/>
+        <when state="pha_juk_n-na" output="dœ"/>
+        <when state="pha_juk_rshee-kar" output="dB"/>
+        <when state="pha_juk_rsu-kar" output="dD"/>
+        <when state="pha_ra-fola" output="d«"/>
+        <when state="pha_ra-fola_dru-kar" output="d«‚"/>
+        <when state="pha_ra-fola_ree-fola" output="d«…"/>
+        <when state="pha_ra-fola_rsu-kar" output="d«z"/>
+        <when state="pha_ree-fola" output="d…"/>
+        <when state="pha_rsu-kar" output="dz"/>
+        <when state="qq" output="q"/>
+        <when state="ra" output="i"/>
+        <when state="ra-fola" output="ª"/>
+        <when state="ra_dru-kar" output="iƒ"/>
+        <when state="ra_rsu-kar" output="iæ"/>
+        <when state="ree -fola" output="„"/>
+        <when state="ree-fola_back" output="…"/>
+        <when state="ref" output="©"/>
+        <when state="rr" output="r"/>
+        <when state="rshee-kar" output="w"/>
+        <when state="rsu-kar" output="y"/>
+        <when state="s-sha" output="m"/>
+        <when state="s-sha_juk" output="m&#x0026;"/>
+        <when state="s-sha_juk_ba" output="¯^"/>
+        <when state="s-sha_juk_dhree-kar" output="mC"/>
+        <when state="s-sha_juk_dru-kar" output="mE"/>
+        <when state="s-sha_juk_ka" output="¯‹"/>
+        <when state="s-sha_juk_ka_dru-kar" output="¯‹‚"/>
+        <when state="s-sha_juk_ka_juk" output="¯‹&#x0026;"/>
+        <when state="s-sha_juk_ka_juk_la" output="¯‹¬"/>
+        <when state="s-sha_juk_ka_ra-fola" output="¯Œ"/>
+        <when state="s-sha_juk_ka_ra-fola_dru-kar" output="¯Œ‚"/>
+        <when state="s-sha_juk_ka_ra-fola_ree-fola" output="¯Œ…"/>
+        <when state="s-sha_juk_ka_ra-fola_rsu-kar" output="¯Œz"/>
+        <when state="s-sha_juk_ka_ree-fola" output="¯‹…"/>
+        <when state="s-sha_juk_ka_rsu-kar" output="¯‹z"/>
+        <when state="s-sha_juk_kha" output="ö"/>
+        <when state="s-sha_juk_la" output="¯ø"/>
+        <when state="s-sha_juk_ma" output="¯§"/>
+        <when state="s-sha_juk_n-na" output="¯œ"/>
+        <when state="s-sha_juk_pa" output="¯ú"/>
+        <when state="s-sha_juk_pha" output="ù"/>
+        <when state="s-sha_juk_pha_dru-kar" output="ù‚"/>
+        <when state="s-sha_juk_pha_ree-fola" output="ù…"/>
+        <when state="s-sha_juk_pha_rsu-kar" output="ùz"/>
+        <when state="s-sha_juk_rshee-kar" output="mB"/>
+        <when state="s-sha_juk_rsu-kar" output="mD"/>
+        <when state="s-sha_juk_thoa" output="¯’"/>
+        <when state="s-sha_juk_toa" output="¯Í"/>
+        <when state="s-sha_juk_toa_dru-kar" output="¯Í‚"/>
+        <when state="s-sha_juk_toa_juk" output="¯Í&#x0026;"/>
+        <when state="s-sha_juk_toa_juk_ba" output="¯Í¡"/>
+        <when state="s-sha_juk_toa_ra-fola" output="¯¿"/>
+        <when state="s-sha_juk_toa_ree-fola" output="¯Í…"/>
+        <when state="s-sha_juk_toa_rsu-kar" output="¯‘"/>
+        <when state="s-sha_juk_tta" output="÷"/>
+        <when state="semi-kolon" output=";"/>
+        <when state="sml-thn" output="&#x003C;"/>
+        <when state="space" output=" "/>
+        <when state="space_a-kar" output="†"/>
+        <when state="space_oi-kar" output="ˆ"/>
+        <when state="ss" output="s"/>
+        <when state="t-sha" output="k"/>
+        <when state="t-sha_juk" output="k&#x0026;"/>
+        <when state="t-sha_juk_ba" output="k¦"/>
+        <when state="t-sha_juk_ccha" output="ñ"/>
+        <when state="t-sha_juk_cha" output="ð"/>
+        <when state="t-sha_juk_dhree-kar" output="kC"/>
+        <when state="t-sha_juk_dru-kar" output="kE"/>
+        <when state="t-sha_juk_la" output="kø"/>
+        <when state="t-sha_juk_ma" output="k¥"/>
+        <when state="t-sha_juk_n-na" output="kœ"/>
+        <when state="t-sha_juk_rshee-kar" output="kB"/>
+        <when state="t-sha_juk_rsu-kar" output="kD"/>
+        <when state="t-sha_ra-fola" output="kÖ"/>
+        <when state="t-sha_ra-fola_dru-kar" output="kÖƒ"/>
+        <when state="t-sha_ra-fola_rsu-kar" output="kÖæ"/>
+        <when state="t-sha_rsu-kar" output="ï"/>
+        <when state="ta" output="Z"/>
+        <when state="ta_dru-kar" output="Z‚"/>
+        <when state="ta_juk" output="Z&#x0026;"/>
+        <when state="ta_juk_ba" output="Z¡"/>
+        <when state="ta_juk_dhree-kar" output="ZC"/>
+        <when state="ta_juk_dru-kar" output="ZE"/>
+        <when state="ta_juk_la" output="Zø"/>
+        <when state="ta_juk_ma" output="Z¥"/>
+        <when state="ta_juk_n-na" output="Zœ"/>
+        <when state="ta_juk_rshee-kar" output="ZB"/>
+        <when state="ta_juk_rsu-kar" output="ZD"/>
+        <when state="ta_juk_ta" output="Ë"/>
+        <when state="ta_juk_ta_dru-kar" output="Ë‚"/>
+        <when state="ta_juk_ta_juk" output="Ë&#x0026;"/>
+        <when state="ta_juk_ta_juk_ba" output="Ë¡"/>
+        <when state="ta_juk_ta_ree-fola" output="Ë…"/>
+        <when state="ta_juk_ta_rsu-kar" output="Ëz"/>
+        <when state="ta_juk_thoa" output="Ì"/>
+        <when state="ta_ra-fola" output="Î"/>
+        <when state="ta_ra-fola_dru-kar" output="Îƒ"/>
+        <when state="ta_ra-fola_rsu-kar" output="Îæ"/>
+        <when state="thoa" output="_"/>
+        <when state="thoa_juk" output="_&#x0026;"/>
+        <when state="thoa_juk_ba" output="_¡"/>
+        <when state="thoa_juk_dhree-kar" output="_C"/>
+        <when state="thoa_juk_dru-kar" output="_E"/>
+        <when state="thoa_juk_n-na" output="_œ"/>
+        <when state="thoa_juk_rshee-kar" output="_B"/>
+        <when state="thoa_juk_rsu-kar" output="_D"/>
+        <when state="toa_ree-fola" output="Z…"/>
+        <when state="toa_rsu-kar" output="Zz"/>
+        <when state="tt" output="t"/>
+        <when state="tta" output="U"/>
+        <when state="tta-rsu-kar" output="Uz"/>
+        <when state="tta_dru-kar" output="U‚"/>
+        <when state="tta_juk" output="U&#x0026;"/>
+        <when state="tta_juk_ba" output="U¡"/>
+        <when state="tta_juk_dhree-kar" output="UC"/>
+        <when state="tta_juk_dru-kar" output="UE"/>
+        <when state="tta_juk_ma" output="U¥"/>
+        <when state="tta_juk_rshee-kar" output="UB"/>
+        <when state="tta_juk_rsu-kar" output="UD"/>
+        <when state="tta_juk_tta" output="Æ"/>
+        <when state="tta_juk_tta_dru-kar" output="Æ‚"/>
+        <when state="tta_juk_tta_ree-fola" output="Æ…"/>
+        <when state="tta_juk_tta_rsu-kar" output="Æz"/>
+        <when state="tta_ree-fola" output="U…"/>
+        <when state="ttha" output="V"/>
+        <when state="ttha_ree-fola" output="V…"/>
+        <when state="ttha_rsu-kar" output="Vz"/>
+        <when state="u-1" output="Ò"/>
+        <when state="u1" output="!"/>
+        <when state="u10" output=")"/>
+        <when state="u11" output="Ñ"/>
+        <when state="u12" output="+"/>
+        <when state="u2" output="@"/>
+        <when state="u3" output="#"/>
+        <when state="u4" output="$"/>
+        <when state="u5" output="%"/>
+        <when state="u6" output="^"/>
+        <when state="u7" output="u"/>
+        <when state="u8" output="*"/>
+        <when state="u9" output="("/>
+        <when state="uu" output="u"/>
+        <when state="v" output="v"/>
+        <when state="ww" output="w"/>
+        <when state="x" output="x"/>
+        <when state="yuo" output="O"/>
+        <when state="yuo_juk" output="O&#x0026;"/>
+        <when state="yuo_juk_dhree-kar" output="OC"/>
+        <when state="yuo_juk_dru-kar" output="OE"/>
+        <when state="yuo_juk_ga" output="½"/>
+        <when state="yuo_juk_gha" output="•N"/>
+        <when state="yuo_juk_ka" output="¼"/>
+        <when state="yuo_juk_ka_dru-kar" output="¼‚"/>
+        <when state="yuo_juk_ka_juk" output="¼&#x0026;"/>
+        <when state="yuo_juk_ka_juk_m-sha" output="•ÿ"/>
+        <when state="yuo_juk_ka_juk_m-sha_dru-kar" output="•ÿ‚"/>
+        <when state="yuo_juk_ka_juk_m-sha_ree-fola" output="•ÿ…"/>
+        <when state="yuo_juk_ka_juk_m-sha_rsu-kar" output="•ÿz"/>
+        <when state="yuo_juk_ka_ra-fola" output="¼«"/>
+        <when state="yuo_juk_ka_ra-fola_dru-kar" output="¼«‚"/>
+        <when state="yuo_juk_ka_ra-fola_ree-fola" output="¼«…"/>
+        <when state="yuo_juk_ka_ra-fola_rsu-kar" output="¼«z"/>
+        <when state="yuo_juk_ka_ree-fola" output="¼…"/>
+        <when state="yuo_juk_ka_rsu-kar" output="¼z"/>
+        <when state="yuo_juk_kha" output="•L"/>
+        <when state="yuo_juk_ma" output="•g"/>
+        <when state="yuo_juk_rshee-kar" output="OB"/>
+        <when state="yuo_juk_rsu-kar" output="OD"/>
+        <when state="yuo_ree-fola" output="O…"/>
+        <when state="yuo_rsu-kar" output="Oz"/>
+        <when state="yy" output="y"/>
+        <when state="z" output="z"/>
+    </terminators>
+</keyboard>

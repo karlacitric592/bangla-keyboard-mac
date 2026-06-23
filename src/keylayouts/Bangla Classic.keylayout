@@ -1,7 +1,7 @@
 <?XML version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Last edited by Ukelele version 2.2.3 on 2012-11-15 at 17:12 (BDT)-->
-<keyboard group="126" id="-19011" name="Bangla Classic" maxout="3">
+<keyboard group="126" id="-19012" name="Bangla Classic" maxout="3">
     <layouts>
         <layout first="0" last="17" modifiers="Modifiers" mapSet="ANSI"/>
         <layout first="18" last="18" modifiers="Modifiers" mapSet="JIS"/>
@@ -2219,7 +2219,7 @@
         <when state="hh" output="h"/>
         <when state="ii" output="i"/>
         <when state="ja" output="R"/>
-        <when state="ja-fola" output="¨ "/>
+        <when state="ja-fola" output="¨"/>
         <when state="ja_juk" output="R&#x0026;"/>
         <when state="ja_juk_ba" output="R¡"/>
         <when state="ja_juk_dhree-kar" output="RC"/>
@@ -2368,7 +2368,7 @@
         <when state="m-sha_juk_pha" output="õ"/>
         <when state="m-sha_juk_pha_dru-kar" output="õ‚"/>
         <when state="m-sha_juk_pha_ree-fola" output="õ…"/>
-        <when state="m-sha_juk_pha_rsu-kar" output="õz "/>
+        <when state="m-sha_juk_pha_rsu-kar" output="õz"/>
         <when state="m-sha_juk_rshee-kar" output="lB"/>
         <when state="m-sha_juk_rsu-kar" output="lD"/>
         <when state="m-sha_juk_tta" output="ó"/>

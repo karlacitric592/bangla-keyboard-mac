@@ -58,7 +58,7 @@ cp -R "$APP" "$DIST/"   # also drop the app in dist/ for direct use
 # DMG (the app is self-contained — pkg is embedded inside it)
 rm -rf "$BUILD/dmg"; mkdir -p "$BUILD/dmg"
 cp -R "$APP" "$BUILD/dmg/"
-cp "$ROOT/README.md" "$BUILD/dmg/Read Me.txt" 2>/dev/null || true
+cp "$HERE/dmg-readme.txt" "$BUILD/dmg/Read Me.txt" 2>/dev/null || cp "$ROOT/README.md" "$BUILD/dmg/Read Me.txt" 2>/dev/null || true
 find "$BUILD/dmg" -name '._*' -delete; xattr -cr "$BUILD/dmg" 2>/dev/null || true
 hdiutil create -volname "Bangla Keyboard" -srcfolder "$BUILD/dmg" -ov -format UDZO "$DIST/Bangla Keyboard.dmg" >/dev/null
 rm -rf "$BUILD"

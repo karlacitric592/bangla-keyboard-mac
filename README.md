@@ -33,15 +33,22 @@ including the things people miss on other Mac layouts:
 
 ## Install
 
-1. Download **`Bangla Keyboard.pkg`** (or the `.dmg`) from
-   [Releases](../../releases).
-2. Double-click it. *(First time: if macOS warns "unidentified developer",
-   right-click the `.pkg` → **Open** → **Open**.)* Enter your admin password.
+Download the **`.dmg`** from [Releases](../../releases) and open it, then:
+
+1. Double-click **`Bangla Keyboard Installer`**. *(First time: right-click it →
+   **Open** → **Open**, since it is not code-signed.)*
+2. It detects whether the keyboard is already installed and offers
+   **Install**, or **Reinstall / Uninstall**. Choose one and enter your admin
+   password when asked.
 3. **Log out and log back in** (or restart) — macOS caches keyboard layouts, so
    they only appear after a fresh login session.
 4. **System Settings → Keyboard → Text Input → Edit… → `+` → Bangla** and add
    **Bangla Unicode** and/or **Bangla Classic**.
 5. Switch input with the menu-bar flag icon or **Control-Space**.
+
+> Prefer the plain installer? A standalone **`Bangla Keyboard.pkg`** is also
+> provided (right-click → Open). Note: the `.pkg` is the standard macOS
+> installer (Install only); use the **Installer app** for Reinstall/Uninstall.
 
 ## ⚠️ About the Bangla Classic layout (SutonnyMJ)
 

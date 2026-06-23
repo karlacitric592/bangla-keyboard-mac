@@ -35,10 +35,23 @@ XML
 productbuild --distribution "$BUILD/distribution.xml" --resources "$HERE/resources" \
   --package-path "$BUILD" "$DIST/Bangla Keyboard.pkg"
 
-# DMG
+# --- smart installer app: detects state, offers Install/Reinstall/Uninstall ---
+APP="$BUILD/Bangla Keyboard Installer.app"
+osacompile -o "$APP" "$HERE/installer.applescript"
+RES="$APP/Contents/Resources"
+cp "$DIST/Bangla Keyboard.pkg" "$RES/Bangla Keyboard.pkg"          # embed the installer
+cp "$ROOT/src/keylayouts/Bangla Unicode.icns" "$RES/applet.icns"  # app icon
+PB=/usr/libexec/PlistBuddy; PL="$APP/Contents/Info.plist"
+$PB -c "Set :CFBundleName 'Bangla Keyboard Installer'" "$PL" 2>/dev/null || true
+$PB -c "Add :CFBundleShortVersionString string $VERSION" "$PL" 2>/dev/null || $PB -c "Set :CFBundleShortVersionString $VERSION" "$PL" 2>/dev/null || true
+$PB -c "Add :LSMinimumSystemVersion string 11.0" "$PL" 2>/dev/null || true
+$PB -c "Add :NSHumanReadableCopyright string 'BiswasHost - https://www.biswashost.com'" "$PL" 2>/dev/null || true
+touch "$APP"
+cp -R "$APP" "$DIST/"   # also drop the app in dist/ for direct use
+
+# DMG (the app is self-contained — pkg is embedded inside it)
 rm -rf "$BUILD/dmg"; mkdir -p "$BUILD/dmg"
-cp "$DIST/Bangla Keyboard.pkg" "$BUILD/dmg/"
-cp "$HERE/Bangla Keyboard Setup.command" "$BUILD/dmg/"; chmod 755 "$BUILD/dmg/Bangla Keyboard Setup.command"
+cp -R "$APP" "$BUILD/dmg/"
 cp "$ROOT/README.md" "$BUILD/dmg/Read Me.txt" 2>/dev/null || true
 find "$BUILD/dmg" -name '._*' -delete; xattr -cr "$BUILD/dmg" 2>/dev/null || true
 hdiutil create -volname "Bangla Keyboard" -srcfolder "$BUILD/dmg" -ov -format UDZO "$DIST/Bangla Keyboard.dmg" >/dev/null

@@ -21,7 +21,7 @@ attack surface:
 |---|---|---|
 | `src/build/scripts/preinstall` | root (during `.pkg` install) | Only `rm -f` of **this project's own** hard‑coded layout paths. No dynamic input. |
 | `src/build/scripts/postinstall` | root (during `.pkg` install) | Only absolute‑path `atsutil` calls to refresh the font cache. No dynamic input. |
-| `Bangla Keyboard Setup.command` | admin (via `osascript … with administrator privileges`) | Install/Reinstall/Uninstall. All filesystem paths are passed to AppleScript as **arguments** and shell‑escaped with `quoted form of` — see below. |
+| `Bangla Keyboard Installer.app` (`src/build/installer.applescript`) | admin (via `osascript … with administrator privileges`) | Install/Reinstall/Uninstall. All filesystem paths are passed to AppleScript as **arguments** and shell‑escaped with `quoted form of` — see below. |
 
 ### Injection‑safe privileged execution
 

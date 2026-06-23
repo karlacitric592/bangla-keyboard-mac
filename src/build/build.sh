@@ -32,7 +32,11 @@ cat > "$BUILD/distribution.xml" <<XML
 </installer-gui-script>
 XML
 
-productbuild --distribution "$BUILD/distribution.xml" --resources "$HERE/resources" \
+# stamp the live version into a copy of the resources (welcome.html uses __VERSION__)
+mkdir -p "$BUILD/resources"; cp "$HERE/resources/"* "$BUILD/resources/"
+sed -i '' "s/__VERSION__/$VERSION/g" "$BUILD/resources/welcome.html"
+
+productbuild --distribution "$BUILD/distribution.xml" --resources "$BUILD/resources" \
   --package-path "$BUILD" "$DIST/Bangla Keyboard.pkg"
 
 # --- smart installer app: detects state, offers Install/Reinstall/Uninstall ---

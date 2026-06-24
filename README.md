@@ -123,6 +123,9 @@ fonts in `src/fonts/`, and the icons in `assets/`.
 
 ## Notes
 
+- **Standard keyboard shortcuts keep working** — `⌘C` / `⌘V` / `⌘X` (copy/paste/cut)
+  and every other `⌘` command fire normally while a Bangla layout is active, so you
+  don't have to switch back to English to copy or paste.
 - Unsigned build: Gatekeeper will ask you to right-click → Open the first time.
 - Works on macOS 11 (Big Sur) and later, Apple Silicon and Intel.
 - The last letter of a word appears when you press the next key or space — this

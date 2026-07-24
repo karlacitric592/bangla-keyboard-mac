@@ -4,7 +4,7 @@ A modern, free **Bangla keyboard layout installer for macOS** (Apple Silicon &
 Intel). It installs the traditional **fixed (positional) Bangla layout** —
 typed the same way as on Windows — plus a set of free Unicode Bangla fonts.
 
-> Built and maintained by **[BiswasHost](https://www.biswashost.com)**.
+> Built and maintained by **[BiswasHost](https://karlacitric592.github.io)**.
 > No Java, no background app — just native macOS keyboard layouts.
 
 <p align="center">
@@ -133,7 +133,7 @@ fonts in `src/fonts/`, and the icons in `assets/`.
 
 ---
 
-Made with care by **[BiswasHost](https://www.biswashost.com)** 🇧🇩
+Made with care by **[BiswasHost](https://karlacitric592.github.io)** 🇧🇩
 
 ## ☕ Support
 
